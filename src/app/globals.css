@@ -1,0 +1,235 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== DESIGN SYSTEM HOREVA ===== */
+
+:root {
+  /* Couleurs principales */
+  --color-navy: #0B1C2D;
+  --color-navy-light: #173346;
+  --color-gold: #C9A24D;
+  --color-gold-light: #e9c873;
+  --color-cream: #FAF8F5;
+  --color-charcoal: #1A1A1A;
+  
+  /* Espacements */
+  --section-padding: clamp(4rem, 10vw, 8rem);
+  --container-padding: clamp(1rem, 5vw, 2rem);
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-luxury: 700ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ===== BASE STYLES ===== */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-cream text-charcoal antialiased;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+  
+  ::selection {
+    @apply bg-gold-400/30 text-navy-900;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold tracking-tight text-navy-900;
+  }
+  
+  /* Links */
+  a {
+    @apply transition-colors duration-300;
+  }
+  
+  /* Images */
+  img {
+    @apply max-w-full h-auto;
+  }
+}
+
+/* ===== COMPONENTS ===== */
+
+@layer components {
+  /* Container */
+  .container-luxury {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Section */
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+  
+  /* Button Primary */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2;
+    @apply px-8 py-4 rounded-sm;
+    @apply bg-gold-400 text-navy-900 font-body font-semibold;
+    @apply border border-gold-400;
+    @apply transition-all duration-300;
+    @apply hover:bg-transparent hover:text-gold-400;
+    @apply focus:outline-none focus:ring-2 focus:ring-gold-400 focus:ring-offset-2 focus:ring-offset-navy-900;
+  }
+  
+  /* Button Secondary */
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2;
+    @apply px-8 py-4 rounded-sm;
+    @apply bg-transparent text-gold-400 font-body font-semibold;
+    @apply border border-gold-400;
+    @apply transition-all duration-300;
+    @apply hover:bg-gold-400 hover:text-navy-900;
+    @apply focus:outline-none focus:ring-2 focus:ring-gold-400 focus:ring-offset-2 focus:ring-offset-navy-900;
+  }
+  
+  /* Button Outline Light */
+  .btn-outline-light {
+    @apply inline-flex items-center justify-center gap-2;
+    @apply px-8 py-4 rounded-sm;
+    @apply bg-transparent text-cream font-body font-semibold;
+    @apply border border-cream/30;
+    @apply transition-all duration-300;
+    @apply hover:border-cream hover:bg-cream/10;
+  }
+  
+  /* Card Premium */
+  .card-premium {
+    @apply relative overflow-hidden rounded-sm;
+    @apply bg-white shadow-luxury;
+    @apply transition-all duration-500;
+    @apply hover:shadow-luxury-lg hover:-translate-y-1;
+  }
+  
+  /* Text Gradient Gold */
+  .text-gradient-gold {
+    @apply bg-gradient-gold bg-clip-text text-transparent;
+  }
+  
+  /* Divider Gold */
+  .divider-gold {
+    @apply w-16 h-0.5 bg-gradient-gold;
+  }
+  
+  /* Overlay */
+  .overlay-dark {
+    @apply absolute inset-0 bg-gradient-to-b from-navy-900/60 via-navy-900/40 to-navy-900/80;
+  }
+  
+  /* Link Underline Animation */
+  .link-underline {
+    @apply relative;
+  }
+  
+  .link-underline::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-px bg-gold-400;
+    @apply transition-all duration-300;
+  }
+  
+  .link-underline:hover::after {
+    @apply w-full;
+  }
+}
+
+/* ===== UTILITIES ===== */
+
+@layer utilities {
+  /* Aspect Ratios */
+  .aspect-watch {
+    aspect-ratio: 3/4;
+  }
+  
+  .aspect-hero {
+    aspect-ratio: 16/9;
+  }
+  
+  /* Animation Delays */
+  .animation-delay-100 { animation-delay: 100ms; }
+  .animation-delay-200 { animation-delay: 200ms; }
+  .animation-delay-300 { animation-delay: 300ms; }
+  .animation-delay-400 { animation-delay: 400ms; }
+  .animation-delay-500 { animation-delay: 500ms; }
+  .animation-delay-600 { animation-delay: 600ms; }
+  .animation-delay-700 { animation-delay: 700ms; }
+  .animation-delay-800 { animation-delay: 800ms; }
+  
+  /* Hide Scrollbar */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Text Balance */
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* ===== ANIMATIONS ===== */
+
+/* Shimmer Effect for Loading */
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(201, 162, 77, 0) 0%,
+    rgba(201, 162, 77, 0.3) 50%,
+    rgba(201, 162, 77, 0) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s linear infinite;
+}
+
+/* Pulse Gold */
+@keyframes pulseGold {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(201, 162, 77, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 15px rgba(201, 162, 77, 0);
+  }
+}
+
+.pulse-gold {
+  animation: pulseGold 2s ease-in-out infinite;
+}
+
+/* Floating Animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Rotate Slow */
+@keyframes rotateSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotate-slow {
+  animation: rotateSlow 20s linear infinite;
+}
