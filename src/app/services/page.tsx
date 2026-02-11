@@ -3,20 +3,41 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { SectionTitle } from "@/components/ui/SectionTitle";
 
 const services = [
   {
-    id: "achat",
-    title: "Achat de montres",
-    subtitle: "Vendez votre montre au meilleur prix",
+    id: "reparation",
+    title: "Services de réparation",
+    subtitle: "Expertise et savoir-faire",
     description:
-      "Vous souhaitez vendre votre montre de luxe ? HOREVA vous propose une estimation gratuite et un rachat immédiat au prix le plus juste du marché. Notre expertise nous permet d'évaluer avec précision la valeur de votre pièce.",
+      "Confiez votre montre à Horeva pour un service de réparation professionnel, réalisé par des horlogers qualifiés et compétents garantissant la meilleure qualité.",
+    content: "Toutes marques, Rolex, Omega, Tudor, Patek, AP, Seiko, Tissot, Cartier…",
+    highlight: "Un détail qui change tout : Chaque réparation est garantie 12 mois.",
     features: [
-      "Estimation gratuite et sans engagement",
-      "Paiement immédiat par virement ou espèces",
-      "Déplacement gratuit dans un rayon de 250 km",
-      "Discrétion et confidentialité assurées",
+      "Aucune intervention sans votre accord préalable du devis",
+      "Dépôt possible directement à Limoges ou envoi par courrier",
+      "Grille tarifaire transparente disponible",
+      "Garantie 12 mois sur chaque réparation",
+    ],
+    image: "https://images.unsplash.com/photo-1585123334904-845d60e97b29?w=800&auto=format&fit=crop",
+    icon: (
+      <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+      </svg>
+    ),
+  },
+  {
+    id: "rachat",
+    title: "Rachat de montres & Dépôt-vente",
+    subtitle: "Deux solutions adaptées à vos besoins",
+    description:
+      "Chez HOREVA, nous accompagnons les propriétaires de montres de prestige qui souhaitent vendre leur garde-temps en toute sérénité. Nous proposons deux solutions adaptées à vos besoins : le rachat immédiat ou le dépôt-vente.",
+    features: [
+      "Rachat immédiat : offre claire et transparente, paiement rapide et sécurisé",
+      "Dépôt-vente : valorisez votre montre au meilleur prix",
+      "Estimation basée sur l'état, la rareté et la valeur réelle du marché",
+      "Vous conservez la propriété jusqu'à la vente",
     ],
     image: "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=800&auto=format&fit=crop",
     icon: (
@@ -27,15 +48,16 @@ const services = [
   },
   {
     id: "vente",
-    title: "Vente de montres",
-    subtitle: "Découvrez notre collection d'exception",
+    title: "Vente de montres de luxe",
+    subtitle: "Sélection exigeante et authentique",
     description:
-      "Notre sélection de montres de luxe de seconde main est rigoureusement contrôlée et authentifiée. Chaque pièce est accompagnée d'une garantie et d'un certificat d'authenticité pour votre tranquillité d'esprit.",
+      "HOREVA sélectionne avec exigence des montres de luxe et vintage, choisies pour leur histoire, leur qualité et leur authenticité. Chaque pièce proposée à la vente est minutieusement contrôlée afin de garantir à nos clients une expérience d'achat irréprochable.",
+    content: "Nous privilégions une approche humaine et personnalisée, que ce soit en boutique ou à distance, pour vous aider à trouver la montre qui vous correspond, celle qui accompagnera votre histoire.",
     features: [
-      "Montres 100% authentiques et vérifiées",
-      "Garantie de 12 mois sur toutes les pièces",
-      "Certificat d'authenticité fourni",
-      "Facilités de paiement disponibles",
+      "Sélection rigoureuse de montres de luxe et vintage",
+      "Contrôle minutieux de chaque pièce",
+      "Approche humaine et personnalisée",
+      "Service en boutique ou à distance",
     ],
     image: "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=800&auto=format&fit=crop",
     icon: (
@@ -45,66 +67,46 @@ const services = [
     ),
   },
   {
-    id: "estimation",
-    title: "Estimation gratuite",
-    subtitle: "Connaissez la valeur de votre montre",
+    id: "authentification",
+    title: "Authentification & expertise",
+    subtitle: "L'authenticité au cœur de notre ADN",
     description:
-      "Nos experts certifiés analysent votre montre selon les critères du marché : état général, authenticité, rareté, documentation... Vous recevez une estimation précise et transparente de la valeur de votre pièce.",
+      "Chaque montre fait l'objet d'une expertise rigoureuse : vérification du mouvement, du boîtier, du cadran, des numéros de série et de la cohérence historique des composants.",
+    content: "Cette démarche garantit à nos clients une traçabilité claire et une confiance totale, qu'il s'agisse d'un achat, d'une vente, d'un dépôt-vente ou d'un simple contrôle.",
+    highlight: "Faites authentifier votre montre pour 35€ et repartez avec votre attestation unique.",
     features: [
-      "Analyse complète par un expert certifié",
-      "Estimation basée sur le marché actuel",
-      "Rapport détaillé sur l'état de la montre",
-      "Service 100% gratuit et sans engagement",
+      "Vérification complète du mouvement et du boîtier",
+      "Contrôle du cadran et des numéros de série",
+      "Analyse de la cohérence historique des composants",
+      "Traçabilité claire et confiance totale",
     ],
     image: "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=800&auto=format&fit=crop",
     icon: (
       <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
       </svg>
     ),
   },
   {
-    id: "reparation",
-    title: "Réparation & Entretien",
-    subtitle: "Prenez soin de votre montre",
+    id: "stockage",
+    title: "Stockage sécurisé & assurance",
+    subtitle: "Voyagez l'esprit léger",
     description:
-      "Nos horlogers qualifiés assurent l'entretien et la réparation de vos montres de luxe avec le plus grand soin. Du simple changement de pile à la révision complète, nous prenons en charge toutes vos demandes.",
+      "Vous partez en vacances ou souhaitez simplement protéger vos montres de valeur ? HOREVA propose un service de stockage sécurisé, spécialement conçu pour les garde-temps de prestige.",
+    content: "Vos montres sont conservées dans des conditions optimales, au sein d'un espace sécurisé et assurées pendant toute la durée du stockage. Une solution discrète, fiable et rassurante pour voyager l'esprit léger, en sachant que vos pièces sont entre de bonnes mains.",
+    highlight: "À partir de 8€ par semaine",
     features: [
-      "Horlogers certifiés et expérimentés",
-      "Pièces détachées d'origine",
-      "Devis gratuit avant intervention",
-      "Garantie sur toutes les réparations",
+      "Conditions de conservation optimales",
+      "Espace hautement sécurisé",
+      "Assurance pendant toute la durée du stockage",
+      "Solution discrète, fiable et rassurante",
     ],
-    image: "https://images.unsplash.com/photo-1585123334904-845d60e97b29?w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&auto=format&fit=crop",
     icon: (
       <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
       </svg>
     ),
-  },
-];
-
-const process = [
-  {
-    step: "01",
-    title: "Contact",
-    description: "Prenez rendez-vous par téléphone, WhatsApp ou via notre formulaire en ligne.",
-  },
-  {
-    step: "02",
-    title: "Rencontre",
-    description: "Nous nous déplaçons chez vous ou vous accueillons pour examiner votre montre.",
-  },
-  {
-    step: "03",
-    title: "Estimation",
-    description: "Notre expert évalue votre pièce et vous propose un prix juste et transparent.",
-  },
-  {
-    step: "04",
-    title: "Transaction",
-    description: "Si l'offre vous convient, le paiement est effectué immédiatement.",
   },
 ];
 
@@ -132,8 +134,9 @@ export default function ServicesPage() {
               Une expertise complète à votre service
             </h1>
             <p className="text-cream/70 text-lg leading-relaxed">
-              De l&apos;achat à la réparation, HOREVA vous accompagne dans toutes vos
-              démarches horlogères avec professionnalisme et passion.
+              De la réparation à l&apos;authentification, du rachat au stockage sécurisé,
+              HOREVA vous accompagne dans toutes vos démarches horlogères avec
+              professionnalisme et passion.
             </p>
           </motion.div>
         </div>
@@ -184,9 +187,23 @@ export default function ServicesPage() {
                 <h2 className="font-display text-display-sm md:text-display-md font-semibold text-navy-900 mt-2 mb-6">
                   {service.title}
                 </h2>
-                <p className="text-charcoal/70 leading-relaxed mb-8">
+                <p className="text-charcoal/70 leading-relaxed mb-4">
                   {service.description}
                 </p>
+
+                {service.content && (
+                  <p className="text-charcoal/70 leading-relaxed mb-4">
+                    {service.content}
+                  </p>
+                )}
+
+                {service.highlight && (
+                  <div className="bg-gold-400/10 border-l-4 border-gold-400 p-4 mb-6">
+                    <p className="text-navy-900 font-semibold">
+                      {service.highlight}
+                    </p>
+                  </div>
+                )}
 
                 <ul className="space-y-4 mb-8">
                   {service.features.map((feature) => (
@@ -223,57 +240,15 @@ export default function ServicesPage() {
         </section>
       ))}
 
-      {/* Process Section */}
-      <section className="section-padding bg-navy-900">
-        <div className="container-luxury">
-          <SectionTitle
-            subtitle="NOTRE PROCESSUS"
-            title="Simple et transparent"
-            description="Découvrez comment nous travaillons pour vous offrir le meilleur service possible."
-            light
-          />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
-            {process.map((item, index) => (
-              <motion.div
-                key={item.step}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1, duration: 0.5 }}
-                className="relative"
-              >
-                {/* Connector Line */}
-                {index < process.length - 1 && (
-                  <div className="hidden lg:block absolute top-8 left-full w-full h-px bg-gold-400/30" />
-                )}
-
-                <div className="text-center">
-                  <span className="font-display text-5xl font-bold text-gold-400/30">
-                    {item.step}
-                  </span>
-                  <h3 className="font-display text-xl font-semibold text-cream mt-4 mb-3">
-                    {item.title}
-                  </h3>
-                  <p className="text-cream/60 text-sm leading-relaxed">
-                    {item.description}
-                  </p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
-      <section className="section-padding bg-cream">
+      <section className="section-padding bg-navy-900">
         <div className="container-luxury">
           <div className="max-w-3xl mx-auto text-center">
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="font-display text-display-sm md:text-display-md font-semibold text-navy-900 mb-6"
+              className="font-display text-display-sm md:text-display-md font-semibold text-cream mb-6"
             >
               Une question ? Un projet ?
             </motion.h2>
@@ -282,7 +257,7 @@ export default function ServicesPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-charcoal/70 text-lg mb-8"
+              className="text-cream/70 text-lg mb-8"
             >
               Notre équipe est à votre disposition pour répondre à toutes vos questions
               et vous accompagner dans vos projets horlogers.

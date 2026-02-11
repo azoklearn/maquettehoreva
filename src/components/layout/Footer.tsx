@@ -12,17 +12,20 @@ const navigation = {
     { name: "Conseils", href: "/conseils" },
     { name: "À propos", href: "/a-propos" },
     { name: "Contact", href: "/contact" },
+    { name: "Livraison", href: "/livraison" },
   ],
   services: [
-    { name: "Achat de montres", href: "/services#achat" },
-    { name: "Vente de montres", href: "/services#vente" },
-    { name: "Estimation gratuite", href: "/services#estimation" },
     { name: "Réparation", href: "/services#reparation" },
+    { name: "Rachat & Dépôt-vente", href: "/services#rachat" },
+    { name: "Vente de montres", href: "/services#vente" },
+    { name: "Authentification", href: "/services#authentification" },
+    { name: "Stockage sécurisé", href: "/services#stockage" },
   ],
   legal: [
+    { name: "Garantie 12 mois", href: "/garantie" },
+    { name: "Livraison & Retour", href: "/livraison" },
     { name: "Mentions légales", href: "/mentions-legales" },
-    { name: "Politique de confidentialité", href: "/confidentialite" },
-    { name: "CGV", href: "/cgv" },
+    { name: "Confidentialité", href: "/confidentialite" },
   ],
 };
 

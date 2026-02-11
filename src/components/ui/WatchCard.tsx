@@ -14,6 +14,7 @@ interface WatchCardProps {
   condition?: string;
   year?: number;
   featured?: boolean;
+  details?: string;
 }
 
 export function WatchCard({
@@ -26,6 +27,7 @@ export function WatchCard({
   condition,
   year,
   featured = false,
+  details,
 }: WatchCardProps) {
   return (
     <motion.article
@@ -91,6 +93,17 @@ export function WatchCard({
                 {reference && <span>Réf. {reference}</span>}
                 {reference && year && <span> • </span>}
                 {year && <span>{year}</span>}
+              </p>
+            )}
+
+            {/* Details - Hidden on mobile */}
+            {details && (
+              <p
+                className={`hidden md:block text-xs mt-2 ${
+                  featured ? "text-gold-400/80" : "text-gold-600"
+                }`}
+              >
+                {details}
               </p>
             )}
 
