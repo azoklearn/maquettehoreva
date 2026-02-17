@@ -47,7 +47,7 @@ export function Footer() {
               />
             </Link>
             <p className="text-cream/60 text-sm leading-relaxed mb-6">
-              Expert en montres de luxe de seconde main depuis plus de 10 ans.
+              Expert en montres de luxe de seconde main.
               Achat, vente, estimation et réparation partout en France.
             </p>
             <div className="flex gap-4">

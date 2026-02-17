@@ -198,31 +198,6 @@ const watches = [
     category: "Classique",
     details: "Boîte • Garantie 12 mois • Mouvement Quartz • Montre Dame",
   },
-  {
-    id: "omega-seamaster-120-baby-proplof-2",
-    brand: "OMEGA",
-    model: "Seamaster 120 « Baby Proplof »",
-    reference: "Millésime 70's",
-    price: 4200,
-    originalPrice: 4600,
-    image: "/nono1.webp",
-    condition: "Très bon",
-    year: 1970,
-    category: "Sport",
-    details: "Garantie 12 mois • Mouvement automatique 1010",
-  },
-  {
-    id: "tudor-ranger-ii-prince-oysterdate-2",
-    brand: "TUDOR",
-    model: "Ranger II Prince Oysterdate",
-    reference: "Millésime 70's",
-    price: 3700,
-    image: "/nono2.webp",
-    condition: "Très bon",
-    year: 1970,
-    category: "Sport",
-    details: "Garantie 12 mois • Mouvement automatique",
-  },
 ];
 
 const brands = ["Toutes", "BELL&ROSS", "CARTIER", "CHAUMET", "GIRARD-PERREGAUX", "HEUER", "LONGINES", "OMEGA", "PIAGET", "RADO", "ROLEX", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE"];
