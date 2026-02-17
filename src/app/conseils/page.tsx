@@ -196,7 +196,7 @@ export default function ConseilsPage() {
                     {section.content}
                   </p>
 
-                  {section.risks && (
+                  {"risks" in section && section.risks && (
                     <ul className="space-y-2 mb-4 ml-4">
                       {section.risks.map((risk, i) => (
                         <li key={i} className="flex items-start gap-3">
@@ -219,7 +219,7 @@ export default function ConseilsPage() {
                     </ul>
                   )}
 
-                  {section.features && (
+                  {"features" in section && section.features && (
                     <ul className="space-y-3 mb-4 ml-4">
                       {section.features.map((feature, i) => (
                         <li key={i} className="flex items-start gap-3">
