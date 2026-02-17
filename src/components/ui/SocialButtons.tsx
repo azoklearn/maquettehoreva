@@ -42,7 +42,7 @@ export function SocialButtons() {
 
       {/* Calendly */}
       <motion.a
-        href="https://calendly.com/horeva"
+        href="https://calendly.com/contact-montrehoreva"
         target="_blank"
         rel="noopener noreferrer"
         whileHover={{ scale: 1.1 }}

@@ -177,7 +177,7 @@ export default function HomePage() {
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <Link
-              href="https://calendly.com/horeva"
+              href="https://calendly.com/contact-montrehoreva"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -449,7 +449,7 @@ export default function HomePage() {
               className="mt-12"
             >
               <Link
-                href="https://calendly.com/horeva"
+                href="https://calendly.com/contact-montrehoreva"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary"
@@ -501,7 +501,7 @@ export default function HomePage() {
               className="flex flex-col sm:flex-row gap-4 justify-center"
             >
               <Link
-                href="https://calendly.com/horeva"
+                href="https://calendly.com/contact-montrehoreva"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary"

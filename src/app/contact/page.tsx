@@ -150,7 +150,7 @@ export default function ContactPage() {
 
                 {/* Calendly */}
                 <a
-                  href="https://calendly.com/horeva"
+                  href="https://calendly.com/contact-montrehoreva"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-white rounded-sm border border-gray-100 hover:border-gold-400/30 hover:shadow-lg transition-all duration-300 group"

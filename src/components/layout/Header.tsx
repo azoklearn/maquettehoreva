@@ -90,7 +90,7 @@ export function Header() {
             {/* CTA Button */}
             <div className="hidden lg:block">
               <Link
-                href="https://calendly.com/horeva"
+                href="https://calendly.com/contact-montrehoreva"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-sm"
@@ -181,7 +181,7 @@ export function Header() {
                   className="pt-8"
                 >
                   <Link
-                    href="https://calendly.com/horeva"
+                    href="https://calendly.com/contact-montrehoreva"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary w-full text-center"

@@ -227,7 +227,7 @@ export default function ServicesPage() {
                 </ul>
 
                 <Link
-                  href="https://calendly.com/horeva"
+                  href="https://calendly.com/contact-montrehoreva"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary"
