@@ -124,7 +124,7 @@ export default function ContactPage() {
 
                 {/* Instagram */}
                 <a
-                  href="https://instagram.com/horeva"
+                  href="https://www.instagram.com/horeva.officiel/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-white rounded-sm border border-gray-100 hover:border-gold-400/30 hover:shadow-lg transition-all duration-300 group"

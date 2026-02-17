@@ -27,7 +27,7 @@ export function SocialButtons() {
 
       {/* Instagram */}
       <motion.a
-        href="https://instagram.com/horeva"
+        href="https://www.instagram.com/horeva.officiel/"
         target="_blank"
         rel="noopener noreferrer"
         whileHover={{ scale: 1.1 }}

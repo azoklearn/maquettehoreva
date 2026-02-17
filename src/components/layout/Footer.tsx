@@ -53,7 +53,7 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com/horeva"
+                href="https://www.instagram.com/horeva.officiel/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-cream/20 flex items-center justify-center hover:border-gold-400 hover:bg-gold-400/10 transition-all duration-300"

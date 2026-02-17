@@ -10,6 +10,7 @@ interface WatchCardProps {
   model: string;
   reference?: string;
   price: number;
+  originalPrice?: number;
   image: string;
   condition?: string;
   year?: number;
@@ -23,6 +24,7 @@ export function WatchCard({
   model,
   reference,
   price,
+  originalPrice,
   image,
   condition,
   year,
@@ -109,9 +111,24 @@ export function WatchCard({
 
             {/* Price */}
             <div className="mt-2 md:mt-4 pt-2 md:pt-4 border-t border-current/10">
+              {originalPrice && (
+                <div className="mb-1">
+                  <span
+                    className={`text-xs md:text-sm line-through ${
+                      featured ? "text-cream/40" : "text-charcoal/40"
+                    }`}
+                  >
+                    {new Intl.NumberFormat("fr-FR", {
+                      style: "currency",
+                      currency: "EUR",
+                      maximumFractionDigits: 0,
+                    }).format(originalPrice)}
+                  </span>
+                </div>
+              )}
               <span
                 className={`font-display text-base md:text-2xl font-semibold ${
-                  featured ? "text-gold-400" : "text-navy-900"
+                  featured ? "text-gold-400" : originalPrice ? "text-red-600" : "text-navy-900"
                 }`}
               >
                 {new Intl.NumberFormat("fr-FR", {
