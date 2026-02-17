@@ -110,7 +110,7 @@ export default function ContactPage() {
                   </div>
                   <div className="flex-1">
                     <p className="font-semibold text-navy-900">05 32 18 90 17</p>
-                    <p className="text-sm text-charcoal/60">Du lundi au samedi, 9h-19h</p>
+                    <p className="text-sm text-charcoal/60">Du lundi au vendredi, 9h-17h30</p>
                   </div>
                   <svg
                     className="w-5 h-5 text-charcoal/40 group-hover:text-gold-400 group-hover:translate-x-1 transition-all"
@@ -189,17 +189,15 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-display font-semibold text-navy-900 mb-2">Zone d&apos;intervention</h3>
                   <p className="text-charcoal/70">
-                    Limoges et toute la région dans un rayon de 250 km.
+                    Partout en France.
                     <br />
-                    Déplacement gratuit pour toute estimation.
+                    Rendez-vous à Limoges possible, livraison et déplacement selon vos besoins.
                   </p>
                 </div>
                 <div>
                   <h3 className="font-display font-semibold text-navy-900 mb-2">Horaires</h3>
                   <p className="text-charcoal/70">
-                    Du lundi au samedi : 9h00 - 19h00
-                    <br />
-                    Dimanche : Sur rendez-vous
+                    Du lundi au vendredi : 9h00 - 17h30
                   </p>
                 </div>
               </div>
@@ -344,8 +342,8 @@ export default function ContactPage() {
               transition={{ delay: 0.1 }}
               className="text-cream/70 mb-8"
             >
-              Limoges, Brive, Angoulême, Périgueux, Poitiers, Clermont-Ferrand...
-              Nous nous déplaçons gratuitement dans un rayon de 250 km pour toute estimation.
+              Nous intervenons partout en France pour toute estimation, achat ou vente.
+              Rendez-vous à Limoges possible, livraison sécurisée ou déplacement selon vos besoins.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -354,7 +352,7 @@ export default function ContactPage() {
               transition={{ delay: 0.2 }}
               className="flex flex-wrap justify-center gap-3"
             >
-              {["Limoges", "Brive", "Angoulême", "Périgueux", "Poitiers", "Guéret", "Tulle", "Châteauroux"].map(
+              {["Paris", "Lyon", "Bordeaux", "Limoges", "Toulouse", "Nantes", "Marseille", "Lille"].map(
                 (city) => (
                   <span
                     key={city}

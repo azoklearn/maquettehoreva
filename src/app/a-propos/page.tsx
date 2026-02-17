@@ -68,8 +68,8 @@ export default function AProposPage() {
               </h1>
               <p className="text-cream/70 text-lg leading-relaxed mb-6">
                 Horeva est une entreprise de Haute-Vienne, basée à Limoges (87),
-                dédiée à l&apos;univers de l&apos;horlogerie, à l&apos;achat de vos montres
-                comme à la réparation.
+                qui intervient partout en France. Dédiée à l&apos;univers de l&apos;horlogerie,
+                à l&apos;achat de vos montres comme à la réparation.
               </p>
               <p className="text-cream/70 text-lg leading-relaxed">
                 Notre vision est de combiner tradition et innovation pour offrir
@@ -85,7 +85,7 @@ export default function AProposPage() {
             >
               <div className="relative aspect-[4/5] rounded-sm overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=800&auto=format&fit=crop"
+                  src="/luxe1.jpeg"
                   alt="HOREVA - L'art de l'horlogerie"
                   fill
                   className="object-cover"
@@ -144,7 +144,7 @@ export default function AProposPage() {
             >
               <div className="relative aspect-square rounded-sm overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&auto=format&fit=crop"
+                  src="/nath.jpeg"
                   alt="Nathan VAUZELLE - Fondateur HOREVA"
                   fill
                   className="object-cover"

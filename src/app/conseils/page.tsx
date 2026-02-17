@@ -44,7 +44,7 @@ Les risques ?`,
     id: "nettoyer-montre",
     title: "Nettoyer sa montre sans l'abîmer : les bons outils et les bons gestes",
     intro: "Entretenir régulièrement sa montre — surtout lorsqu'il s'agit d'une pièce vintage — permet de préserver son éclat, sa lisibilité et son confort au poignet. Un nettoyage mal réalisé peut cependant provoquer micro-rayures, infiltration d'eau ou usure prématurée. Voici comment nettoyer votre montre en toute sécurité, avec des outils simples et accessibles.",
-    image: "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=800&auto=format&fit=crop",
+    image: "/montre1.jpeg",
     sections: [
       {
         title: "1. Les accessoires indispensables pour un nettoyage en douceur",

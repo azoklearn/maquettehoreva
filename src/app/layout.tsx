@@ -20,7 +20,7 @@ const raleway = Raleway({
 export const metadata: Metadata = {
   title: "HOREVA | Montres de Luxe de Seconde Main",
   description:
-    "HOREVA - Expert en achat, revente, réparation et estimation de montres de luxe de seconde main. Limoges et sa région.",
+    "HOREVA - Expert en achat, revente, réparation et estimation de montres de luxe de seconde main. Partout en France.",
   keywords: [
     "montres de luxe",
     "seconde main",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "Omega",
     "réparation montre",
     "estimation montre",
-    "Limoges",
+    "France",
   ],
   authors: [{ name: "HOREVA" }],
   openGraph: {

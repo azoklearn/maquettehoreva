@@ -8,19 +8,8 @@ import { ServiceCard } from "@/components/ui/ServiceCard";
 import { WatchCard } from "@/components/ui/WatchCard";
 import { TestimonialCard } from "@/components/ui/TestimonialCard";
 
-// Données des montres en vedette
+// Les 4 montres en vedette (parmi le catalogue actuel)
 const featuredWatches = [
-  {
-    id: "girard-perregaux-monte-carlo-1965",
-    brand: "GIRARD-PERREGAUX",
-    model: "Monte-Carlo 1965",
-    reference: "Édition limitée 250 ex.",
-    price: 2790,
-    image: "/Girard.jpeg",
-    condition: "Excellent",
-    year: 2014,
-    featured: true,
-  },
   {
     id: "rolex-submariner-kermit",
     brand: "ROLEX",
@@ -30,6 +19,44 @@ const featuredWatches = [
     image: "/rolexx.jpeg",
     condition: "Excellent",
     year: 2007,
+    details: "Full set • Garantie 12 mois • Mouvement automatique",
+    featured: true,
+  },
+  {
+    id: "rolex-gmt-master-ii-16710",
+    brand: "ROLEX",
+    model: "GMT Master II",
+    reference: "16710",
+    price: 11890,
+    image: "/montre1.jpeg",
+    condition: "Excellent",
+    year: 1980,
+    details: "Boîte • 2 lunettes (Coke + Black) • Garantie 12 mois • Mouvement automatique",
+    featured: true,
+  },
+  {
+    id: "piaget-altiplano-gold",
+    brand: "PIAGET",
+    model: "Altiplano OR 750/1000",
+    reference: "Millésime 60's",
+    price: 5790,
+    image: "/piaget.jpeg",
+    condition: "Excellent",
+    year: 1960,
+    details: "Or 18k • Garantie 12 mois • Mouvement automatique micro-rotor 12P",
+    featured: true,
+  },
+  {
+    id: "omega-seamaster-120-baby-proplof-2",
+    brand: "OMEGA",
+    model: "Seamaster 120 « Baby Proplof »",
+    reference: "Millésime 70's",
+    price: 4200,
+    originalPrice: 4600,
+    image: "/nono1.webp",
+    condition: "Très bon",
+    year: 1970,
+    details: "Garantie 12 mois • Mouvement automatique 1010",
     featured: true,
   },
 ];
@@ -118,7 +145,7 @@ export default function HomePage() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-navy-900/60 via-navy-900/40 to-navy-900/80" />
+          <div className="absolute inset-0 bg-gradient-to-b from-navy-900/85 via-navy-900/82 to-navy-900/88" />
         </div>
 
         {/* Decorative Elements */}
@@ -144,8 +171,8 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 2.5, duration: 0.8 }}
           >
-            <span className="inline-block text-gold-400 text-sm tracking-[0.3em] font-body mb-6">
-              LIMOGES & RÉGION • DEPUIS 2015
+            <span className="inline-block text-gold-400 text-base md:text-lg tracking-[0.2em] font-medium mb-6 [text-shadow:0_2px_8px_rgba(0,0,0,0.5)]">
+              BASÉ À LIMOGES • LIVRAISON EN FRANCE
             </span>
           </motion.div>
 
@@ -153,18 +180,18 @@ export default function HomePage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 2.6, duration: 0.8 }}
-            className="font-display text-display-md md:text-display-lg lg:text-display-xl font-semibold mb-6"
+            className="font-display text-display-md md:text-display-lg lg:text-display-xl font-semibold mb-6 text-gold-400 [text-shadow:0_2px_12px_rgba(0,0,0,0.6)]"
           >
             L&apos;Excellence
             <br />
-            <span className="text-gold-400">Horlogère</span>
+            <span className="[text-shadow:0_2px_12px_rgba(0,0,0,0.6)]">Horlogère</span>
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 2.7, duration: 0.8 }}
-            className="max-w-2xl mx-auto text-lg md:text-xl text-cream/80 mb-10"
+            className="max-w-2xl mx-auto text-xl md:text-2xl text-cream leading-relaxed mb-10 [text-shadow:0_2px_8px_rgba(0,0,0,0.5)]"
           >
             Spécialiste de l&apos;achat, la vente, l&apos;estimation et la réparation
             de montres de luxe de seconde main. Une expertise au service de votre passion.
@@ -234,7 +261,7 @@ export default function HomePage() {
             light
           />
 
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 mt-16">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 mt-16">
             {featuredWatches.map((watch) => (
               <WatchCard key={watch.id} {...watch} />
             ))}
@@ -407,7 +434,7 @@ export default function HomePage() {
               transition={{ delay: 0.1 }}
               className="font-display text-display-sm md:text-display-md font-semibold text-cream mb-6"
             >
-              Limoges et 250 km aux alentours
+              Partout en France
             </motion.h2>
 
             <motion.p
@@ -417,9 +444,8 @@ export default function HomePage() {
               transition={{ delay: 0.2 }}
               className="text-cream/70 text-lg mb-8"
             >
-              Nous nous déplaçons gratuitement pour toute estimation ou transaction
-              dans un rayon de 250 km autour de Limoges. Angoulême, Brive, Périgueux,
-              Poitiers, Clermont-Ferrand... nous venons à vous.
+              Nous intervenons partout en France : estimation, achat et vente.
+              Rendez-vous possible à Limoges, livraison sécurisée ou déplacement selon vos besoins.
             </motion.p>
 
             <motion.div
@@ -429,7 +455,7 @@ export default function HomePage() {
               transition={{ delay: 0.3 }}
               className="flex flex-wrap justify-center gap-4"
             >
-              {["Limoges", "Brive", "Angoulême", "Périgueux", "Poitiers", "Guéret", "Tulle"].map(
+              {["Paris", "Lyon", "Bordeaux", "Limoges", "Toulouse", "Nantes", "Marseille"].map(
                 (city) => (
                   <span
                     key={city}

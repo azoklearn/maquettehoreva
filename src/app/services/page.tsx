@@ -15,11 +15,12 @@ const services = [
     highlight: "Un détail qui change tout : Chaque réparation est garantie 12 mois.",
     features: [
       "Aucune intervention sans votre accord préalable du devis",
-      "Dépôt possible directement à Limoges ou envoi par courrier",
+      "Dépôt possible à Limoges ou envoi par courrier partout en France",
       "Grille tarifaire transparente disponible",
       "Garantie 12 mois sur chaque réparation",
     ],
-    image: "https://images.unsplash.com/photo-1585123334904-845d60e97b29?w=800&auto=format&fit=crop",
+    image: "/avant.jpeg",
+    images: ["/avant.jpeg", "/apres.jpeg"],
     icon: (
       <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
@@ -39,7 +40,7 @@ const services = [
       "Estimation basée sur l'état, la rareté et la valeur réelle du marché",
       "Vous conservez la propriété jusqu'à la vente",
     ],
-    image: "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=800&auto=format&fit=crop",
+    image: "/luxe2.jpeg",
     icon: (
       <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -80,7 +81,7 @@ const services = [
       "Analyse de la cohérence historique des composants",
       "Traçabilité claire et confiance totale",
     ],
-    image: "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=800&auto=format&fit=crop",
+    image: "/nono3.webp",
     icon: (
       <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -101,7 +102,7 @@ const services = [
       "Assurance pendant toute la durée du stockage",
       "Solution discrète, fiable et rassurante",
     ],
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&auto=format&fit=crop",
+    image: "/cadena.jpeg",
     icon: (
       <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
@@ -159,14 +160,35 @@ export default function ServicesPage() {
                 transition={{ duration: 0.8 }}
                 className={`relative ${index % 2 === 1 ? "lg:order-2" : ""}`}
               >
-                <div className="relative aspect-[4/3] rounded-sm overflow-hidden">
-                  <Image
-                    src={service.image}
-                    alt={service.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+                {service.images && service.images.length === 2 ? (
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="relative aspect-[3/4] min-h-[220px] sm:min-h-[280px] rounded-sm overflow-hidden">
+                      <Image
+                        src={service.images[0]}
+                        alt={service.title}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="relative aspect-[3/4] min-h-[220px] sm:min-h-[280px] rounded-sm overflow-hidden">
+                      <Image
+                        src={service.images[1]}
+                        alt={service.title}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
+                ) : (
+                  <div className="relative aspect-[4/3] rounded-sm overflow-hidden">
+                    <Image
+                      src={service.image}
+                      alt={service.title}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                )}
                 {/* Icon Badge */}
                 <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-navy-900 rounded-sm flex items-center justify-center text-gold-400 shadow-luxury">
                   {service.icon}

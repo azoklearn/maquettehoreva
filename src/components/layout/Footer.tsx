@@ -48,8 +48,7 @@ export function Footer() {
             </Link>
             <p className="text-cream/60 text-sm leading-relaxed mb-6">
               Expert en montres de luxe de seconde main depuis plus de 10 ans.
-              Achat, vente, estimation et réparation à Limoges et dans toute la
-              région.
+              Achat, vente, estimation et réparation partout en France.
             </p>
             <div className="flex gap-4">
               <a
@@ -192,7 +191,7 @@ export function Footer() {
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
-                  Limoges et sa région (250km)
+                  Partout en France
                 </div>
               </li>
             </ul>
