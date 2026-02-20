@@ -20,6 +20,7 @@ const watchesData: Record<string, {
   year: number;
   category: string;
   details: string;
+  sold?: boolean;
   description: string;
   specifications: {
     movement: string;
