@@ -29,6 +29,7 @@ const watches = [
     year: 2007,
     category: "Sport",
     details: "Full set • Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "bell-ross-br03-92",
@@ -89,6 +90,7 @@ const watches = [
     year: 1970,
     category: "Classique",
     details: "Vermeil • Garantie 12 mois • Mouvement quartz",
+    sold: true,
   },
   {
     id: "piaget-altiplano-gold",
@@ -235,6 +237,8 @@ export default function MontresPage() {
   const [sortBy, setSortBy] = useState("featured");
 
   const filteredWatches = watches.filter((watch) => {
+    // Exclure les montres vendues
+    if (watch.sold) return false;
     if (selectedBrand !== "Toutes" && watch.brand !== selectedBrand) return false;
     if (selectedCategory !== "Toutes" && watch.category !== selectedCategory) return false;
     if (selectedCondition !== "Tous" && watch.condition !== selectedCondition) return false;

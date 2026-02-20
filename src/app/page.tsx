@@ -11,18 +11,6 @@ import { TestimonialCard } from "@/components/ui/TestimonialCard";
 // Les 4 montres en vedette (parmi le catalogue actuel)
 const featuredWatches = [
   {
-    id: "rolex-submariner-kermit",
-    brand: "ROLEX",
-    model: "Submariner Kermit",
-    reference: "16610LV",
-    price: 12990,
-    image: "/rolexx.jpeg",
-    condition: "Excellent",
-    year: 2007,
-    details: "Full set • Garantie 12 mois • Mouvement automatique",
-    featured: true,
-  },
-  {
     id: "rolex-gmt-master-ii-16710",
     brand: "ROLEX",
     model: "GMT Master II",
