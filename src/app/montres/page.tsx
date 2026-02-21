@@ -213,6 +213,18 @@ const watches = [
     details: "Garantie 12 mois • Mouvement automatique • Cuir Omega rouge",
   },
   {
+    id: "breitling-colt-ocean",
+    brand: "BREITLING",
+    model: "Colt Ocean",
+    reference: "Millésime 2005",
+    price: 1190,
+    image: "/pec.jpeg",
+    condition: "Très bon",
+    year: 2005,
+    category: "Sport",
+    details: "Boîte, livret et gants Breitling • Garantie 12 mois • Mouvement automatique",
+  },
+  {
     id: "chaumet-mihewi",
     brand: "CHAUMET",
     model: "Mihewi",
@@ -226,7 +238,7 @@ const watches = [
   },
 ];
 
-const brands = ["Toutes", "BELL&ROSS", "CARTIER", "CHAUMET", "GIRARD-PERREGAUX", "HEUER", "LONGINES", "OMEGA", "PIAGET", "RADO", "ROLEX", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE"];
+const brands = ["Toutes", "BELL&ROSS", "BREITLING", "CARTIER", "CHAUMET", "GIRARD-PERREGAUX", "HEUER", "LONGINES", "OMEGA", "PIAGET", "RADO", "ROLEX", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE"];
 const categories = ["Toutes", "Sport", "Classique"];
 const conditions = ["Tous", "Comme neuf", "Excellent", "Très bon", "Bon"];
 
@@ -237,8 +249,6 @@ export default function MontresPage() {
   const [sortBy, setSortBy] = useState("featured");
 
   const filteredWatches = watches.filter((watch) => {
-    // Exclure les montres vendues
-    if (watch.sold) return false;
     if (selectedBrand !== "Toutes" && watch.brand !== selectedBrand) return false;
     if (selectedCategory !== "Toutes" && watch.category !== selectedCategory) return false;
     if (selectedCondition !== "Tous" && watch.condition !== selectedCondition) return false;

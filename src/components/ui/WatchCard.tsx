@@ -16,6 +16,7 @@ interface WatchCardProps {
   year?: number;
   featured?: boolean;
   details?: string;
+  sold?: boolean;
 }
 
 export function WatchCard({
@@ -30,6 +31,7 @@ export function WatchCard({
   year,
   featured = false,
   details,
+  sold = false,
 }: WatchCardProps) {
   return (
     <motion.article
@@ -61,6 +63,12 @@ export function WatchCard({
             {condition && (
               <span className="absolute top-2 left-2 md:top-4 md:left-4 px-2 py-0.5 md:px-3 md:py-1 bg-navy-900/90 text-cream text-[10px] md:text-xs tracking-wide">
                 {condition}
+              </span>
+            )}
+            {/* Vendu Badge */}
+            {sold && (
+              <span className="absolute top-2 right-2 md:top-4 md:right-4 px-2 py-0.5 md:px-3 md:py-1 bg-red-600 text-white text-[10px] md:text-xs font-semibold tracking-wide">
+                VENDU
               </span>
             )}
           </div>
@@ -111,7 +119,7 @@ export function WatchCard({
 
             {/* Price */}
             <div className="mt-2 md:mt-4 pt-2 md:pt-4 border-t border-current/10">
-              {originalPrice && (
+              {originalPrice && !sold && (
                 <div className="mb-1">
                   <span
                     className={`text-xs md:text-sm line-through ${
@@ -128,7 +136,15 @@ export function WatchCard({
               )}
               <span
                 className={`font-display text-base md:text-2xl font-semibold ${
-                  featured ? "text-gold-400" : originalPrice ? "text-red-600" : "text-navy-900"
+                  sold
+                    ? featured
+                      ? "text-cream/50 line-through"
+                      : "text-charcoal/40 line-through"
+                    : featured
+                    ? "text-gold-400"
+                    : originalPrice
+                    ? "text-red-600"
+                    : "text-navy-900"
                 }`}
               >
                 {new Intl.NumberFormat("fr-FR", {
@@ -146,7 +162,7 @@ export function WatchCard({
               viewport={{ once: true }}
               className="hidden md:flex mt-4 items-center gap-2 text-gold-400 text-sm font-medium group-hover:gap-3 transition-all duration-300"
             >
-              <span>Découvrir</span>
+              <span>{sold ? "Voir la fiche" : "Découvrir"}</span>
               <svg
                 className="w-4 h-4"
                 fill="none"
