@@ -39,7 +39,7 @@ const featuredWatches = [
     brand: "OMEGA",
     model: "Seamaster 120 Baby Proplof",
     reference: "Millésime 70's",
-    price: 4100,
+    price: 4090,
     image: "/montre6.jpeg",
     condition: "Très bon",
     year: 1970,

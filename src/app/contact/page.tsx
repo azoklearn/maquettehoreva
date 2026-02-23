@@ -187,6 +187,14 @@ export default function ContactPage() {
                   </a>
                 </div>
                 <div>
+                  <h3 className="font-display font-semibold text-navy-900 mb-2">Adresse</h3>
+                  <p className="text-charcoal/70">
+                    1 Place Jourdan, 87000 Limoges
+                    <br />
+                    Uniquement sur rendez-vous
+                  </p>
+                </div>
+                <div>
                   <h3 className="font-display font-semibold text-navy-900 mb-2">Zone d&apos;intervention</h3>
                   <p className="text-charcoal/70">
                     Partout en France.
