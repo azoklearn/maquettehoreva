@@ -207,7 +207,7 @@ export default function AProposPage() {
               >
                 <div className="w-48 h-48 md:w-64 md:h-64 relative">
                   <Image
-                    src="/logoblanc.jpeg"
+                    src="/logo.webp"
                     alt="Logo HOREVA"
                     fill
                     className="object-contain"
