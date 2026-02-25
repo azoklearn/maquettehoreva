@@ -54,7 +54,7 @@ export function Header() {
                 className="flex items-center"
               >
                 <Image
-                  src="/logo.webp"
+                  src="/logoblanc.jpeg"
                   alt="HOREVA"
                   width={140}
                   height={50}

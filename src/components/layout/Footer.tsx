@@ -39,7 +39,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-6">
               <Image
-                src="/logo.webp"
+                src="/logoblanc.jpeg"
                 alt="HOREVA"
                 width={140}
                 height={50}
