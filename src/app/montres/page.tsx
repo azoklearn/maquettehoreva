@@ -93,6 +93,18 @@ const watches = [
     sold: true,
   },
   {
+    id: "cartier-santos-or-acier-w2sa0038",
+    brand: "CARTIER",
+    model: "Santos OR/ACIER",
+    reference: "W2SA0038",
+    price: 5290,
+    image: "/santos.jpeg",
+    condition: "Excellent",
+    year: 2025,
+    category: "Classique",
+    details: "Full set, boîte et papiers • Première main • Garantie 8 ans (jusqu’en 2033) • Mouvement quartz",
+  },
+  {
     id: "piaget-altiplano-gold",
     brand: "PIAGET",
     model: "Altiplano OR 750/1000",
