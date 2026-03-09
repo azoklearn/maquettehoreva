@@ -299,9 +299,9 @@ const watchesData: Record<string, {
       movement: "Quartz Cartier",
       case: "Acier et or (OR/ACIER)",
       dial: "Cadran avec chiffres romains et chemin de fer",
-      bracelet: "Bracelet acier/or avec maillons vissés",
+      bracelet: "Bracelet cuir",
       waterResistance: "100 mètres",
-      diameter: "39 mm",
+      diameter: "38 x 27.5 mm",
     },
     included: [
       "Montre en excellent état",
