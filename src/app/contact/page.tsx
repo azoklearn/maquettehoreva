@@ -3,6 +3,10 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import {
+  BOUTIQUE_ADDRESS_LINES,
+  BOUTIQUE_GOOGLE_MAPS_URL,
+} from "@/lib/site";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -148,6 +152,36 @@ export default function ContactPage() {
                   </svg>
                 </a>
 
+                {/* Boutique */}
+                <a
+                  href={BOUTIQUE_GOOGLE_MAPS_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 p-4 bg-white rounded-sm border border-gray-100 hover:border-gold-400/30 hover:shadow-lg transition-all duration-300 group"
+                  aria-label="Ouvrir l'adresse de la boutique dans Google Maps"
+                >
+                  <div className="w-12 h-12 bg-navy-900 rounded-full flex items-center justify-center text-gold-400 flex-shrink-0">
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <p className="font-semibold text-navy-900">Notre boutique à Limoges</p>
+                    <p className="text-sm text-charcoal/60">
+                      {BOUTIQUE_ADDRESS_LINES[0]}, {BOUTIQUE_ADDRESS_LINES[1]}
+                    </p>
+                  </div>
+                  <svg
+                    className="w-5 h-5 text-charcoal/40 group-hover:text-gold-400 group-hover:translate-x-1 transition-all"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+
                 {/* Calendly */}
                 <a
                   href="https://calendly.com/contact-montrehoreva"
@@ -187,12 +221,18 @@ export default function ContactPage() {
                   </a>
                 </div>
                 <div>
-                  <h3 className="font-display font-semibold text-navy-900 mb-2">Adresse</h3>
-                  <p className="text-charcoal/70">
-                    1 Place Jourdan, 87000 Limoges
+                  <h3 className="font-display font-semibold text-navy-900 mb-2">Boutique</h3>
+                  <a
+                    href={BOUTIQUE_GOOGLE_MAPS_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-charcoal/70 hover:text-gold-400 transition-colors inline-block"
+                    aria-label="Ouvrir l'adresse dans Google Maps"
+                  >
+                    {BOUTIQUE_ADDRESS_LINES[0]}
                     <br />
-                    Uniquement sur rendez-vous
-                  </p>
+                    {BOUTIQUE_ADDRESS_LINES[1]}
+                  </a>
                 </div>
                 <div>
                   <h3 className="font-display font-semibold text-navy-900 mb-2">Zone d&apos;intervention</h3>

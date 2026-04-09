@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { SIEGE_SOCIAL, SIEGE_SOCIAL_FR } from "@/lib/site";
 
 export default function ConfidentialitePage() {
   return (
@@ -46,7 +47,7 @@ export default function ConfidentialitePage() {
               <p className="text-charcoal/70 leading-relaxed mb-4">
                 La présente Politique de Confidentialité explique comment <strong className="text-navy-900">Horeva</strong>, 
                 entreprise individuelle imposée au régime réel à l&apos;impôt sur le revenu et dirigée par M. Vauzelle Nathan, 
-                dont le siège social est situé 1 Place Jourdan, 87000 Limoges, collecte, utilise, protège et partage vos 
+                dont le siège social est situé {SIEGE_SOCIAL}, collecte, utilise, protège et partage vos 
                 données personnelles dans le cadre de l&apos;utilisation du site montrehoreva.com et de ses services :
               </p>
               <ul className="space-y-2 ml-4 mb-4">
@@ -84,7 +85,7 @@ export default function ConfidentialitePage() {
               <div className="bg-gray-50 p-6 rounded-sm">
                 <p className="text-charcoal/70 mb-2"><strong className="text-navy-900">Horeva</strong></p>
                 <p className="text-charcoal/70 mb-2">Dirigé par : M. Vauzelle Nathan</p>
-                <p className="text-charcoal/70 mb-2">Adresse : 1 Place Jourdan, 87000 Limoges</p>
+                <p className="text-charcoal/70 mb-2">Adresse : {SIEGE_SOCIAL}</p>
                 <p className="text-charcoal/70 mb-2">E-mail : contact@montrehoreva.com</p>
                 <p className="text-charcoal/70">Téléphone : 05 32 18 90 17</p>
               </div>
@@ -394,7 +395,7 @@ export default function ConfidentialitePage() {
                   <strong className="text-cream">Téléphone :</strong> 05 32 18 90 17
                 </p>
                 <p className="text-cream/80">
-                  <strong className="text-cream">Adresse :</strong> Horeva – 1 Place Jourdan, 87000 Limoges
+                  <strong className="text-cream">Adresse :</strong> Horeva – {SIEGE_SOCIAL}
                 </p>
               </div>
             </motion.div>
@@ -442,8 +443,7 @@ export default function ConfidentialitePage() {
               </h2>
               <div className="bg-gray-50 p-6 rounded-sm">
                 <p className="text-charcoal/70 mb-2"><strong className="text-navy-900">Horeva</strong> – M. Vauzelle Nathan</p>
-                <p className="text-charcoal/70 mb-2">1 Place Jourdan</p>
-                <p className="text-charcoal/70 mb-2">87000 Limoges – France</p>
+                <p className="text-charcoal/70 mb-2">{SIEGE_SOCIAL_FR}</p>
                 <p className="text-charcoal/70">
                   Email : <a href="mailto:contact@montrehoreva.com" className="text-gold-400 hover:underline">contact@montrehoreva.com</a>
                 </p>

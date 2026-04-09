@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { SIEGE_SOCIAL } from "@/lib/site";
 
 export default function GarantiePage() {
   return (
@@ -50,7 +51,7 @@ export default function GarantiePage() {
                 <strong>Entreprise :</strong> Horeva – M. Vauzelle Nathan
               </p>
               <p className="text-charcoal/60 text-sm">
-                <strong>Adresse :</strong> 1 Place Jourdan, 87000 Limoges
+                <strong>Adresse :</strong> {SIEGE_SOCIAL}
               </p>
             </motion.div>
 

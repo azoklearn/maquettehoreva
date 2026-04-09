@@ -7,6 +7,10 @@ import { SectionTitle } from "@/components/ui/SectionTitle";
 import { ServiceCard } from "@/components/ui/ServiceCard";
 import { WatchCard } from "@/components/ui/WatchCard";
 import { TestimonialCard } from "@/components/ui/TestimonialCard";
+import {
+  BOUTIQUE_ADDRESS_SHORT,
+  BOUTIQUE_GOOGLE_MAPS_URL,
+} from "@/lib/site";
 
 // Les 4 montres en vedette (parmi le catalogue actuel)
 const featuredWatches = [
@@ -28,7 +32,7 @@ const featuredWatches = [
     brand: "PIAGET",
     model: "Altiplano OR 750/1000",
     reference: "Millésime 60's",
-    price: 5790,
+    price: 5390,
     image: "/piaget.jpeg",
     condition: "Excellent",
     year: 1960,
@@ -159,9 +163,18 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 2.5, duration: 0.8 }}
           >
-            <span className="inline-block text-gold-400 text-base md:text-lg tracking-[0.2em] font-medium mb-6 [text-shadow:0_2px_8px_rgba(0,0,0,0.5)]">
-              BASÉ À LIMOGES • LIVRAISON EN FRANCE
+            <span className="inline-block text-gold-400 text-base md:text-lg tracking-[0.2em] font-medium mb-4 [text-shadow:0_2px_8px_rgba(0,0,0,0.5)]">
+              BOUTIQUE À LIMOGES • LIVRAISON EN FRANCE
             </span>
+            <a
+              href={BOUTIQUE_GOOGLE_MAPS_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-cream/90 hover:text-gold-400 text-sm md:text-base mb-6 underline-offset-4 hover:underline transition-colors [text-shadow:0_2px_8px_rgba(0,0,0,0.5)]"
+              aria-label="Ouvrir l'adresse de la boutique dans Google Maps"
+            >
+              {BOUTIQUE_ADDRESS_SHORT}
+            </a>
           </motion.div>
 
           <motion.h1

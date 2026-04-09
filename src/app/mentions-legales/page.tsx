@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { SIEGE_SOCIAL_FR } from "@/lib/site";
 
 export default function MentionsLegalesPage() {
   return (
@@ -53,7 +54,7 @@ export default function MentionsLegalesPage() {
                 <p><strong>Raison sociale :</strong> Horeva</p>
                 <p><strong>Forme juridique :</strong> Entreprise Individuelle imposée au régime réel de l&apos;impôt sur le revenu</p>
                 <p><strong>Dirigée par :</strong> M. Vauzelle Nathan</p>
-                <p><strong>Siège social :</strong> 1 Place Jourdan, 87000 Limoges, France</p>
+                <p><strong>Siège social :</strong> {SIEGE_SOCIAL_FR}</p>
                 <p><strong>Numéro SIREN / SIRET :</strong> 948 395 777 00030</p>
                 <p><strong>Code APE :</strong> 4791A – 9525Z</p>
                 <p><strong>TVA intracommunautaire :</strong> FR27948395777</p>

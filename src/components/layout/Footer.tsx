@@ -2,7 +2,10 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import {
+  BOUTIQUE_ADDRESS_LINES,
+  BOUTIQUE_GOOGLE_MAPS_URL,
+} from "@/lib/site";
 
 const navigation = {
   main: [
@@ -171,7 +174,13 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <div className="flex items-start gap-3 text-cream/60 text-sm">
+                <a
+                  href={BOUTIQUE_GOOGLE_MAPS_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-3 text-cream/60 hover:text-gold-400 transition-colors duration-300 text-sm"
+                  aria-label="Ouvrir l'adresse de la boutique dans Google Maps"
+                >
                   <svg
                     className="w-5 h-5 mt-0.5 flex-shrink-0"
                     fill="none"
@@ -191,8 +200,17 @@ export function Footer() {
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
-                  Partout en France
-                </div>
+                  <span>
+                    {BOUTIQUE_ADDRESS_LINES[0]}
+                    <br />
+                    {BOUTIQUE_ADDRESS_LINES[1]}
+                  </span>
+                </a>
+              </li>
+              <li>
+                <p className="text-cream/50 text-xs pl-8">
+                  Intervention partout en France
+                </p>
               </li>
             </ul>
           </div>
