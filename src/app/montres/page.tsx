@@ -167,6 +167,18 @@ const watches = [
     details: "Boîte • 2 lunettes (Coke + Black) • Garantie 12 mois • Mouvement automatique",
   },
   {
+    id: "rolex-datejust-16220",
+    brand: "ROLEX",
+    model: "Datejust 16220",
+    reference: "16220",
+    price: 4990,
+    image: "/21avr.jpeg",
+    condition: "Très bon",
+    year: 1989,
+    category: "Classique",
+    details: "Papiers d'origine fournis • Garantie 12 mois • Mouvement automatique",
+  },
+  {
     id: "rolex-explorer-2004",
     brand: "ROLEX",
     model: "Explorer",
