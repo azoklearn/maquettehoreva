@@ -103,6 +103,7 @@ const watches = [
     year: 1990,
     category: "Classique",
     details: "Garantie 12 mois • Mouvement quartz • Montre Dame",
+    sold: true,
   },
   {
     id: "cartier-santos-or-acier-w2sa0038",
@@ -115,6 +116,7 @@ const watches = [
     year: 2025,
     category: "Classique",
     details: "Full set, boîte et papiers • Première main • Garantie 8 ans (jusqu’en 2033) • Mouvement quartz",
+    sold: true,
   },
   {
     id: "piaget-altiplano-gold",
@@ -225,6 +227,7 @@ const watches = [
     year: 1970,
     category: "Sport",
     details: "Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "tudor-oyster",

@@ -318,6 +318,7 @@ const watchesData: Record<string, {
       "Design classique et moderne à la fois",
       "Mouvement quartz Cartier fiable",
     ],
+    sold: true,
   },
   "piaget-altiplano-gold": {
     id: "piaget-altiplano-gold",
@@ -597,6 +598,7 @@ const watchesData: Record<string, {
       "Fonction date pratique",
       "État de conservation très bon",
     ],
+    sold: true,
   },
   "longines-chrono-13zn": {
     id: "longines-chrono-13zn",
@@ -771,6 +773,7 @@ const watchesData: Record<string, {
       "Maison Cartier prestigieuse",
       "Prix accessible pour du Cartier vintage",
     ],
+    sold: true,
   },
   "tudor-oyster": {
     id: "tudor-oyster",
