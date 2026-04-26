@@ -362,9 +362,33 @@ const watches = [
     category: "Classique",
     details: "Argent massif • Garantie 12 mois • Mouvement remontage manuel",
   },
+  {
+    id: "bell-ross-br01-94s",
+    brand: "BELL&ROSS",
+    model: "BR01-94S",
+    reference: "Millésime 2007",
+    price: 3590,
+    image: "/stage2.jpeg",
+    condition: "Très bon",
+    year: 2007,
+    category: "Sport",
+    details: "Full set, boîte, papiers et 3 bracelets cuir • Outillage de remplacement inclus • Garantie 12 mois • Mouvement automatique chronographe",
+  },
+  {
+    id: "seiko-presage-cocktail-star-bar",
+    brand: "SEIKO",
+    model: "Présage Cocktail \"Star Bar\"",
+    reference: "Édition limitée 6000 ex.",
+    price: 420,
+    image: "/stage1.jpeg",
+    condition: "Très bon",
+    year: 2025,
+    category: "Classique",
+    details: "Full set, boîte et papiers • Garantie 12 mois • Mouvement automatique • Montre Dame",
+  },
 ];
 
-const brands = ["Toutes", "BELL&ROSS", "BREITLING", "CARTIER", "CHAUMET", "GIRARD-PERREGAUX", "HEUER", "LONGINES", "OMEGA", "PIAGET", "RADO", "ROLEX", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
+const brands = ["Toutes", "BELL&ROSS", "BREITLING", "CARTIER", "CHAUMET", "GIRARD-PERREGAUX", "HEUER", "LONGINES", "OMEGA", "PIAGET", "RADO", "ROLEX", "SEIKO", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
 const categories = ["Toutes", "Sport", "Classique"];
 const conditions = ["Tous", "Comme neuf", "Excellent", "Très bon", "Bon"];
 
