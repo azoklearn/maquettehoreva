@@ -376,6 +376,18 @@ const watches = [
     details: "Full set, boîte, papiers et 3 bracelets cuir • Outillage de remplacement inclus • Garantie 12 mois • Mouvement automatique chronographe",
   },
   {
+    id: "tudor-automatique-lunette-or",
+    brand: "TUDOR",
+    model: "Automatique Lunette OR",
+    reference: "Lunette OR 18 carats",
+    price: 1340,
+    image: "/30avr2.jpeg",
+    condition: "Très bon",
+    year: 1970,
+    category: "Classique",
+    details: "Lunette OR 18 carats • Garantie 12 mois • Mouvement automatique",
+  },
+  {
     id: "omega-or-18k",
     brand: "OMEGA",
     model: "OR 18k",
