@@ -376,6 +376,18 @@ const watches = [
     details: "Full set, boîte, papiers et 3 bracelets cuir • Outillage de remplacement inclus • Garantie 12 mois • Mouvement automatique chronographe",
   },
   {
+    id: "rolex-oyster-perpetual-36-2008",
+    brand: "ROLEX",
+    model: "Oyster Perpetual 36",
+    reference: "Millésime 2008",
+    price: 6290,
+    image: "/30avr3.jpeg",
+    condition: "Très bon",
+    year: 2008,
+    category: "Classique",
+    details: "Rolex Certified Pre-Owned 2024 • Boîte et papiers • Garantie 12 mois • Mouvement automatique",
+  },
+  {
     id: "tudor-automatique-lunette-or",
     brand: "TUDOR",
     model: "Automatique Lunette OR",
