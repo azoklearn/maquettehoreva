@@ -376,6 +376,18 @@ const watches = [
     details: "Full set, boîte, papiers et 3 bracelets cuir • Outillage de remplacement inclus • Garantie 12 mois • Mouvement automatique chronographe",
   },
   {
+    id: "omega-or-18k",
+    brand: "OMEGA",
+    model: "OR 18k",
+    reference: "Calibre 284",
+    price: 2390,
+    image: "/30avr.jpeg",
+    condition: "Très bon",
+    year: 1960,
+    category: "Classique",
+    details: "Or rose 18 carats • Garantie 12 mois • Mouvement remontage manuel calibre 284",
+  },
+  {
     id: "seiko-presage-cocktail-star-bar",
     brand: "SEIKO",
     model: "Présage Cocktail \"Star Bar\"",
