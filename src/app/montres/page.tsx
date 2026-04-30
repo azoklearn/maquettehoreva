@@ -179,6 +179,7 @@ const watches = [
     year: 1989,
     category: "Classique",
     details: "Papiers d'origine fournis • Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "rolex-explorer-2004",

@@ -990,6 +990,7 @@ const watchesData: Record<string, {
     year: 1989,
     category: "Classique",
     details: "Papiers d'origine fournis • Garantie 12 mois • Mouvement automatique",
+    sold: true,
     description: "La Rolex Datejust 16220 est une icône intemporelle de l'horlogerie, produite à partir de la fin des années 1980. Ce millésime 1989 en très bon état incarne l'élégance classique de la Datejust avec son boîtier Oyster en acier, sa lunette lisse et son bracelet Jubilé caractéristique. Équipée du fiable mouvement automatique manufacture Rolex avec date à guichet, cette Datejust est livrée avec ses papiers d'origine, gage d'authenticité et de traçabilité. Une pièce parfaite pour qui recherche une Rolex vintage classique, polyvalente au quotidien comme pour les grandes occasions.",
     specifications: {
       movement: "Automatique Rolex Calibre 3135",
