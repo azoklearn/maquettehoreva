@@ -376,6 +376,18 @@ const watches = [
     details: "Full set, boîte, papiers et 3 bracelets cuir • Outillage de remplacement inclus • Garantie 12 mois • Mouvement automatique chronographe",
   },
   {
+    id: "oris-dat-watt-limited",
+    brand: "ORIS",
+    model: "Dat Watt",
+    reference: "Édition limitée 2009 ex. — N°1885",
+    price: 1590,
+    image: "/oris.jpeg",
+    condition: "Très bon",
+    year: 2009,
+    category: "Sport",
+    details: "Édition limitée 2009 ex. monde • N°1885 • Garantie 12 mois • Mouvement automatique",
+  },
+  {
     id: "rolex-oyster-perpetual-36-2008",
     brand: "ROLEX",
     model: "Oyster Perpetual 36",
@@ -425,7 +437,7 @@ const watches = [
   },
 ];
 
-const brands = ["Toutes", "BELL&ROSS", "BREITLING", "CARTIER", "CHAUMET", "GIRARD-PERREGAUX", "HEUER", "LONGINES", "OMEGA", "PIAGET", "RADO", "ROLEX", "SEIKO", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
+const brands = ["Toutes", "BELL&ROSS", "BREITLING", "CARTIER", "CHAUMET", "GIRARD-PERREGAUX", "HEUER", "LONGINES", "OMEGA", "ORIS", "PIAGET", "RADO", "ROLEX", "SEIKO", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
 const categories = ["Toutes", "Sport", "Classique"];
 const conditions = ["Tous", "Comme neuf", "Excellent", "Très bon", "Bon"];
 
