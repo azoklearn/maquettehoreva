@@ -26,6 +26,7 @@ const featuredWatches = [
     year: 1980,
     details: "Boîte • 2 lunettes (Coke + Black) • Garantie 12 mois • Mouvement automatique",
     featured: true,
+    sold: true,
   },
   {
     id: "piaget-altiplano-gold",

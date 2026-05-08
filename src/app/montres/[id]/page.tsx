@@ -17,7 +17,7 @@ const watchesData: Record<string, {
   image: string;
   images?: string[];
   condition: string;
-  year: number;
+  year?: number;
   category: string;
   details: string;
   sold?: boolean;
@@ -436,6 +436,7 @@ const watchesData: Record<string, {
     year: 1980,
     category: "Sport",
     details: "Boîte • 2 lunettes (Coke + Black) • Garantie 12 mois • Mouvement automatique",
+    sold: true,
     description: "La Rolex GMT Master II 16710 est l'une des références les plus emblématiques de l'horlogerie sportive de luxe. Ce millésime des années 80 en excellent état est équipé du mouvement automatique Rolex et représente une période charnière de l'histoire de la GMT. Cette pièce exceptionnelle est livrée avec sa boîte d'origine et deux lunettes interchangeables : la célèbre Coke (rouge et noir) et la lunette noire, offrant ainsi une polyvalence unique. Un investissement horloger de premier ordre.",
     specifications: {
       movement: "Automatique Rolex Calibre 3185",
@@ -472,6 +473,7 @@ const watchesData: Record<string, {
     year: 2004,
     category: "Sport",
     details: "Full set, boîte et papiers • Première main • Garantie 12 mois • Mouvement automatique",
+    sold: true,
     description: "La Rolex Explorer de 2004 incarne l'esprit d'aventure et la robustesse légendaire de la marque. Pensée pour accompagner les explorateurs dans les conditions les plus exigeantes, cette pièce en excellent état est équipée d'un mouvement automatique fiable et précis. Son design classique/sport en fait une montre polyvalente, parfaitement adaptée à un usage quotidien tout en conservant une forte identité horlogère.",
     specifications: {
       movement: "Automatique Rolex",
@@ -529,6 +531,40 @@ const watchesData: Record<string, {
       "État de conservation très bon",
       "Héritage sport automobile",
       "Pièce de collection recherchée",
+    ],
+  },
+  "hamilton-ventura-automatique-h245850": {
+    id: "hamilton-ventura-automatique-h245850",
+    brand: "HAMILTON",
+    model: "Ventura automatique",
+    reference: "H245850",
+    price: 1090,
+    image: "/hamilton.jpeg",
+    condition: "Très bon",
+    category: "Classique",
+    details: "Full set, boîte et papiers • Garantie 12 mois • Mouvement automatique visible",
+    description: "La Hamilton Ventura automatique H245850 reprend la silhouette triangulaire iconique de la Ventura dans une version mécanique contemporaine. Son mouvement automatique visible apporte une présence horlogère forte et permet d'apprécier la mécanique au poignet comme côté fond. Livrée en full set avec boîte et papiers, cette pièce associe design immédiatement reconnaissable, caractère vintage et confort d'une montre automatique moderne.",
+    specifications: {
+      movement: "Automatique visible",
+      case: "Acier inoxydable",
+      dial: "Cadran ouvert avec mouvement apparent",
+      bracelet: "Bracelet cuir",
+      waterResistance: "50 mètres",
+      diameter: "42.5 mm",
+    },
+    included: [
+      "Montre en très bon état",
+      "Boîte Hamilton d'origine",
+      "Papiers / livret",
+      "Garantie HOREVA 12 mois",
+    ],
+    highlights: [
+      "Référence H245850",
+      "Mouvement automatique visible",
+      "Design Ventura iconique",
+      "Full set : boîte et papiers",
+      "Garantie HOREVA 12 mois",
+      "Pièce de caractère au style immédiatement identifiable",
     ],
   },
   "tudor-oyster-elegante": {
@@ -1377,7 +1413,8 @@ export default function WatchDetailPage() {
 
               {/* Reference */}
               <p className="text-charcoal/60 mb-6">
-                Réf. {watch.reference} • {watch.year}
+                Réf. {watch.reference}
+                {watch.year ? ` • ${watch.year}` : ""}
               </p>
 
               {/* Price */}

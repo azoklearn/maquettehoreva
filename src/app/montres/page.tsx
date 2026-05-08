@@ -167,6 +167,7 @@ const watches = [
     year: 1980,
     category: "Sport",
     details: "Boîte • 2 lunettes (Coke + Black) • Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "rolex-datejust-16220",
@@ -192,6 +193,7 @@ const watches = [
     year: 2004,
     category: "Sport",
     details: "Full set, boîte et papiers • Première main • Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "heuer-daytona-chrono",
@@ -204,6 +206,17 @@ const watches = [
     year: 1970,
     category: "Sport",
     details: "Garantie 12 mois • Mouvement automatique • Chronographe",
+  },
+  {
+    id: "hamilton-ventura-automatique-h245850",
+    brand: "HAMILTON",
+    model: "Ventura automatique",
+    reference: "H245850",
+    price: 1090,
+    image: "/hamilton.jpeg",
+    condition: "Très bon",
+    category: "Classique",
+    details: "Full set, boîte et papiers • Garantie 12 mois • Mouvement automatique visible",
   },
   {
     id: "tudor-oyster-elegante",
@@ -437,7 +450,7 @@ const watches = [
   },
 ];
 
-const brands = ["Toutes", "BELL&ROSS", "BREITLING", "CARTIER", "CHAUMET", "GIRARD-PERREGAUX", "HEUER", "LONGINES", "OMEGA", "ORIS", "PIAGET", "RADO", "ROLEX", "SEIKO", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
+const brands = ["Toutes", "BELL&ROSS", "BREITLING", "CARTIER", "CHAUMET", "GIRARD-PERREGAUX", "HAMILTON", "HEUER", "LONGINES", "OMEGA", "ORIS", "PIAGET", "RADO", "ROLEX", "SEIKO", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
 const categories = ["Toutes", "Sport", "Classique"];
 const conditions = ["Tous", "Comme neuf", "Excellent", "Très bon", "Bon"];
 
