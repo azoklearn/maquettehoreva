@@ -891,6 +891,7 @@ const watchesData: Record<string, {
     year: 1910,
     category: "Classique",
     details: "Montre de la Première Guerre mondiale • Garantie 12 mois • Mouvement remontage manuel",
+    sold: true,
     description: "Cette Omega WW1 des années 1910 est une pièce d'histoire exceptionnelle, portée par les soldats lors de la Première Guerre mondiale. Acquérir cette montre, c'est tenir entre ses mains plus d'un siècle d'histoire. Son mouvement à remontage manuel témoigne du savoir-faire horloger suisse de l'époque et sa robustesse légendaire lui a permis de traverser plus de 100 ans. Une pièce de collection rarissime à un prix très accessible.",
     specifications: {
       movement: "Remontage manuel Omega",

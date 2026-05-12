@@ -327,6 +327,7 @@ const watches = [
     year: 1910,
     category: "Classique",
     details: "Montre de la Première Guerre mondiale • Garantie 12 mois • Mouvement remontage manuel",
+    sold: true,
   },
   {
     id: "breitling-colt-ocean",
