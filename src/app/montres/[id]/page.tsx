@@ -221,6 +221,7 @@ const watchesData: Record<string, {
     year: 2025,
     category: "Classique",
     details: "Garantie 36 mois • Mouvement automatique",
+    sold: true,
     description: "La Rado True représente l'excellence de l'horlogerie contemporaine suisse, alliant innovation technologique et design raffiné. Cette pièce 2025 en état excellent incarne la philosophie Rado de créer des montres ultra-résistantes et intemporelles. Avec sa céramique high-tech et son mouvement automatique de précision, la True est une montre polyvalente qui s'adapte aussi bien à un style classique que sportif. Bénéficiant d'une garantie exceptionnelle de 36 mois, c'est un investissement sûr pour les amateurs d'horlogerie moderne.",
     specifications: {
       movement: "Automatique Rado",

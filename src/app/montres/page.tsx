@@ -78,6 +78,7 @@ const watches = [
     year: 2025,
     category: "Classique",
     details: "Garantie 36 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "cartier-must",
