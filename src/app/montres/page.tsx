@@ -54,6 +54,7 @@ const watches = [
     year: 2022,
     category: "Sport",
     details: "Full set • Boîte et papiers • Garantie 12 mois • Mouvement automatique • Bracelet silicone neuf offert",
+    sold: true,
   },
   {
     id: "universal-geneve-gilt-shadow",

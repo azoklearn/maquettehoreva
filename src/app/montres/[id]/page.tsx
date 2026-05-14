@@ -152,6 +152,7 @@ const watchesData: Record<string, {
     year: 2022,
     category: "Sport",
     details: "Full set • Boîte et papiers • Garantie 12 mois • Mouvement automatique • Bracelet silicone neuf offert",
+    sold: true,
     description: "La Bell&Ross 123 Commando de 2022 incarne l'esprit militaire et l'horlogerie instrumentale de la marque. Cette pièce en excellent état est livrée en full set avec boîte et papiers. Son mouvement automatique fiable et son design sportif en font une montre robuste au quotidien. Un bracelet silicone neuf est offert avec la montre.",
     specifications: {
       movement: "Automatique Bell&Ross",
