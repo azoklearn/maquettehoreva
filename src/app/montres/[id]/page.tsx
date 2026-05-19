@@ -859,6 +859,7 @@ const watchesData: Record<string, {
     year: 1970,
     category: "Classique",
     details: "Garantie 12 mois • Mouvement automatique • Date Roulette (jour paire rouge, jour impaire noir)",
+    sold: true,
     description: "La Tudor Prince31 des années 70 est une pièce de collection dotée d'une rarissime date roulette alternant rouge (jours pairs) et noir (jours impairs). Cette particularité horlogère unique en fait une montre recherchée des collectionneurs. Son mouvement automatique fiable et son excellent état de conservation font de cette Tudor Prince31 une opportunité rare dans l'univers du vintage accessible.",
     specifications: {
       movement: "Automatique Tudor",

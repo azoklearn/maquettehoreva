@@ -269,6 +269,7 @@ const watches = [
     year: 1970,
     category: "Classique",
     details: "Garantie 12 mois • Mouvement automatique • Date Roulette (jour paire rouge, jour impaire noir)",
+    sold: true,
   },
   {
     id: "longines-chrono-13zn",
