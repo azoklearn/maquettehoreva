@@ -1173,6 +1173,7 @@ const watchesData: Record<string, {
     year: 1970,
     category: "Classique",
     details: "Lunette OR 18 carats • Garantie 12 mois • Mouvement automatique",
+    sold: true,
     description: "Cette Tudor Automatique des années 70 se distingue par sa rare lunette en or 18 carats, détail précieux qui lui confère un caractère bicolore élégant et raffiné. Marque sœur de Rolex, Tudor partage le même niveau d'exigence dans la fabrication de ses boîtiers et mouvements. Son calibre automatique robuste et fiable en fait une montre agréable au quotidien, tandis que sa lunette en métal précieux lui assure une présence remarquable au poignet. Une pièce vintage de caractère à un prix très attractif.",
     specifications: {
       movement: "Automatique Tudor",

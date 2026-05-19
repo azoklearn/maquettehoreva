@@ -427,6 +427,7 @@ const watches = [
     year: 1970,
     category: "Classique",
     details: "Lunette OR 18 carats • Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "omega-or-18k",
