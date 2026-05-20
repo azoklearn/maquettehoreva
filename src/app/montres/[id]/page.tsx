@@ -581,6 +581,7 @@ const watchesData: Record<string, {
     year: 1970,
     category: "Classique",
     details: "Garantie 12 mois • Mouvement remontage manuel",
+    sold: true,
     description: "La Tudor Oyster des années 70 incarne l'élégance discrète et le savoir-faire horloger de la marque sœur de Rolex. Cette pièce vintage à remontage manuel en très bon état combine le charme authentique de l'horlogerie mécanique traditionnelle avec la robustesse légendaire du boîtier Oyster. Avec son design classique intemporel et son mouvement manuel qui crée un lien unique avec son porteur, cette Tudor est une opportunité d'acquérir une pièce de qualité à un prix accessible.",
     specifications: {
       movement: "Remontage manuel Tudor",

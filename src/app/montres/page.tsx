@@ -232,6 +232,7 @@ const watches = [
     year: 1970,
     category: "Classique",
     details: "Garantie 12 mois • Mouvement remontage manuel",
+    sold: true,
   },
   {
     id: "tudor-ranger-ii-prince-oyster-date",
