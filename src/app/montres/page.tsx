@@ -369,6 +369,7 @@ const watches = [
     year: 2005,
     category: "Classique",
     details: "Boîte • Garantie 12 mois • Mouvement Quartz • Montre Dame",
+    sold: true,
   },
   {
     id: "zenith-grand-prix-1900",

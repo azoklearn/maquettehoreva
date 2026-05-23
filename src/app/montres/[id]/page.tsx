@@ -1280,6 +1280,7 @@ const watchesData: Record<string, {
     year: 2005,
     category: "Classique",
     details: "Boîte • Garantie 12 mois • Mouvement Quartz • Montre Dame",
+    sold: true,
     description: "La Chaumet Mihewi est une montre élégante pour dame de la prestigieuse maison parisienne Chaumet, joaillier et horloger depuis 1780. Cette pièce de 2005 en bon état incarne l'élégance française et le raffinement de la haute joaillerie parisienne. Avec son mouvement quartz fiable et sa boîte d'origine, cette Mihewi représente une opportunité accessible d'acquérir une montre de la célèbre maison Chaumet de la Place Vendôme. Une montre classique parfaite pour compléter une garde-robe féminine élégante.",
     specifications: {
       movement: "Quartz",
