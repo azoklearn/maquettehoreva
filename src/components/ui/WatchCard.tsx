@@ -51,7 +51,8 @@ export function WatchCard({
           <div className="relative aspect-watch overflow-hidden bg-gradient-to-b from-gray-100 to-gray-50">
             <Image
               src={image}
-              alt={`${brand} ${model}`}
+              alt={`${brand} ${model}${reference ? ` ${reference}` : ""}${condition ? ` — état ${condition}` : ""} — montre de luxe seconde main HOREVA Limoges`}
+              title={`${brand} ${model}${reference ? ` · ${reference}` : ""}`}
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
               sizes="(max-width: 768px) 50vw, (max-width: 1200px) 50vw, 33vw"

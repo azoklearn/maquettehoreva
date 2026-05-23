@@ -1329,8 +1329,40 @@ export default function WatchDetailPage() {
     );
   }
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: `${watch.brand} ${watch.model} ${watch.reference}`,
+    description: watch.description,
+    image: `https://horeva.fr${watch.image}`,
+    brand: {
+      "@type": "Brand",
+      name: watch.brand,
+    },
+    itemCondition: "https://schema.org/UsedCondition",
+    offers: {
+      "@type": "Offer",
+      priceCurrency: "EUR",
+      price: watch.price,
+      availability: watch.sold
+        ? "https://schema.org/OutOfStock"
+        : "https://schema.org/InStock",
+      seller: {
+        "@type": "Organization",
+        name: "HOREVA",
+        url: "https://horeva.fr",
+      },
+    },
+  };
+
   return (
     <>
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       {/* Breadcrumb */}
       <section className="pt-28 pb-4 bg-cream border-b border-gray-200">
         <div className="container-luxury">
@@ -1363,7 +1395,8 @@ export default function WatchDetailPage() {
               <div className="relative aspect-square bg-white rounded-sm overflow-hidden shadow-lg">
                 <Image
                   src={selectedImage}
-                  alt={`${watch.brand} ${watch.model}`}
+                  alt={`${watch.brand} ${watch.model} ${watch.reference} — état ${watch.condition} — montre de luxe seconde main HOREVA Limoges`}
+                  title={`${watch.brand} ${watch.model} · ${watch.reference}`}
                   fill
                   className="object-cover"
                   priority
@@ -1389,7 +1422,7 @@ export default function WatchDetailPage() {
                     >
                       <Image
                         src={img}
-                        alt={`${watch.brand} ${watch.model} - Image ${index + 1}`}
+                        alt={`${watch.brand} ${watch.model} ${watch.reference} — photo ${index + 1} — HOREVA Limoges`}
                         fill
                         className="object-cover"
                       />
