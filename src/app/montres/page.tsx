@@ -468,11 +468,13 @@ export default function MontresPage() {
   const [selectedCategory, setSelectedCategory] = useState("Toutes");
   const [selectedCondition, setSelectedCondition] = useState("Tous");
   const [sortBy, setSortBy] = useState("featured");
+  const [showSold, setShowSold] = useState(false);
 
   const filteredWatches = watches.filter((watch) => {
     if (selectedBrand !== "Toutes" && watch.brand !== selectedBrand) return false;
     if (selectedCategory !== "Toutes" && watch.category !== selectedCategory) return false;
     if (selectedCondition !== "Tous" && watch.condition !== selectedCondition) return false;
+    if (showSold) return !!watch.sold;
     return true;
   });
 
@@ -563,6 +565,18 @@ export default function MontresPage() {
                   </option>
                 ))}
               </select>
+
+              {/* Sold Filter */}
+              <button
+                onClick={() => setShowSold(!showSold)}
+                className={`px-4 py-2 rounded-sm text-sm font-medium border transition-colors ${
+                  showSold
+                    ? "bg-red-600 border-red-600 text-white"
+                    : "bg-white border-gray-200 text-navy-900 hover:border-red-400 hover:text-red-600"
+                }`}
+              >
+                Vendues
+              </button>
             </div>
 
             {/* Sort */}
@@ -583,7 +597,7 @@ export default function MontresPage() {
 
           {/* Results count */}
           <p className="text-sm text-charcoal/60 mt-4">
-            {sortedWatches.length} montre{sortedWatches.length > 1 ? "s" : ""} disponible{sortedWatches.length > 1 ? "s" : ""}
+            {sortedWatches.length} montre{sortedWatches.length > 1 ? "s" : ""} {showSold ? "vendue" : "disponible"}{sortedWatches.length > 1 ? "s" : ""}
           </p>
         </div>
       </section>
