@@ -475,7 +475,7 @@ export default function MontresPage() {
     if (selectedCategory !== "Toutes" && watch.category !== selectedCategory) return false;
     if (selectedCondition !== "Tous" && watch.condition !== selectedCondition) return false;
     if (showSold) return !!watch.sold;
-    return true;
+    return !watch.sold;
   });
 
   const sortedWatches = [...filteredWatches].sort((a, b) => {
