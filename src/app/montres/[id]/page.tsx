@@ -188,6 +188,7 @@ const watchesData: Record<string, {
     year: 1960,
     category: "Classique",
     details: "Garantie 12 mois • Mouvement automatique microrotor",
+    sold: true,
     description: "La Universal Genève Gilt Shadow est une pièce vintage authentique des années 60, représentant l'âge d'or de l'horlogerie suisse. Ce millésime rare est équipé du célèbre mouvement automatique microrotor, une prouesse technique pour l'époque. Son cadran doré (gilt) lui confère un charme intemporel et une élégance discrète. Cette montre classique est parfaite pour les collectionneurs à la recherche d'une pièce vintage abordable avec une véritable âme horlogère.",
     specifications: {
       movement: "Automatique microrotor Universal Genève",

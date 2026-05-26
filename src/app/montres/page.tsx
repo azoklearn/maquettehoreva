@@ -67,6 +67,7 @@ const watches = [
     year: 1960,
     category: "Classique",
     details: "Garantie 12 mois • Mouvement automatique microrotor",
+    sold: true,
   },
   {
     id: "rado-true",
