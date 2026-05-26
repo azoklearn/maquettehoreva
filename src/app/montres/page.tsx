@@ -456,6 +456,7 @@ const watches = [
     year: 2025,
     category: "Classique",
     details: "Full set, boîte et papiers • Garantie 12 mois • Mouvement automatique • Montre Dame",
+    sold: true,
   },
 ];
 

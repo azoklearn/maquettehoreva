@@ -1245,6 +1245,7 @@ const watchesData: Record<string, {
     year: 2025,
     category: "Classique",
     details: "Full set, boîte et papiers • Garantie 12 mois • Mouvement automatique • Montre Dame",
+    sold: true,
     description: "La Seiko Présage Cocktail Time \"Star Bar\" est une édition limitée à 6 000 exemplaires dans le monde, imaginée en hommage au célèbre Star Bar du Palace Hotel de Tokyo. Son cadran nacré aux reflets profonds et irisés évoque la magie des cocktails de nuit sous un ciel étoilé. Montre dame de caractère, elle embarque le fiable mouvement automatique Seiko et est livrée en full set avec boîte et papiers d'origine. Un bijou accessible de l'horlogerie japonaise contemporaine, idéal comme première montre de collection ou cadeau d'exception.",
     specifications: {
       movement: "Automatique Seiko",
