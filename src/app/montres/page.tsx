@@ -421,6 +421,18 @@ const watches = [
     details: "Rolex Certified Pre-Owned 2024 • Boîte et papiers • Garantie 12 mois • Mouvement automatique",
   },
   {
+    id: "tudor-automatique-lunette-or-diamants",
+    brand: "TUDOR",
+    model: "Automatique Lunette OR — Index Diamants",
+    reference: "Lunette OR & index diamants",
+    price: 1390,
+    image: "/paiement.jpeg",
+    condition: "Très bon",
+    year: 1970,
+    category: "Classique",
+    details: "Lunette OR • Index diamants • Garantie 12 mois • Mouvement automatique",
+  },
+  {
     id: "tudor-automatique-lunette-or",
     brand: "TUDOR",
     model: "Automatique Lunette OR",
