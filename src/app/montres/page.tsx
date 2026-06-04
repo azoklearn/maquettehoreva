@@ -421,6 +421,30 @@ const watches = [
     details: "Rolex Certified Pre-Owned 2024 • Boîte et papiers • Garantie 12 mois • Mouvement automatique",
   },
   {
+    id: "omega-bumper-plaque-or",
+    brand: "OMEGA",
+    model: "Bumper",
+    reference: "Plaqué OR — Vintage",
+    price: 1090,
+    image: "/omegzer.jpeg",
+    condition: "Très bon",
+    year: 1950,
+    category: "Classique",
+    details: "Plaqué OR • Garantie 12 mois • Mouvement automatique bumper",
+  },
+  {
+    id: "baume-mercier-baumatic",
+    brand: "BAUME & MERCIER",
+    model: "Baumatic",
+    reference: "Bracelet NATO",
+    price: 590,
+    image: "/ehmerce.jpeg",
+    condition: "Très bon",
+    year: 2020,
+    category: "Sport",
+    details: "Acier • Bracelet NATO • Garantie 12 mois • Mouvement automatique",
+  },
+  {
     id: "tudor-automatique-lunette-or-diamants",
     brand: "TUDOR",
     model: "Automatique Lunette OR — Index Diamants",
@@ -473,7 +497,7 @@ const watches = [
   },
 ];
 
-const brands = ["Toutes", "BELL&ROSS", "BREITLING", "CARTIER", "CHAUMET", "GIRARD-PERREGAUX", "HAMILTON", "HEUER", "LONGINES", "OMEGA", "ORIS", "PIAGET", "RADO", "ROLEX", "SEIKO", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
+const brands = ["Toutes", "BAUME & MERCIER", "BELL&ROSS", "BREITLING", "CARTIER", "CHAUMET", "GIRARD-PERREGAUX", "HAMILTON", "HEUER", "LONGINES", "OMEGA", "ORIS", "PIAGET", "RADO", "ROLEX", "SEIKO", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
 const categories = ["Toutes", "Sport", "Classique"];
 const conditions = ["Tous", "Comme neuf", "Excellent", "Très bon", "Bon"];
 
