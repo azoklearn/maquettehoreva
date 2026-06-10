@@ -449,7 +449,7 @@ const watches = [
     brand: "TUDOR",
     model: "Automatique Lunette OR — Index Diamants",
     reference: "Lunette OR & index diamants",
-    price: 1390,
+    price: 1590,
     image: "/paiement.jpeg",
     condition: "Très bon",
     year: 1970,
