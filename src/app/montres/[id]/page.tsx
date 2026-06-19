@@ -1280,6 +1280,7 @@ const watchesData: Record<string, {
     year: 1970,
     category: "Classique",
     details: "Lunette OR • Index diamants • Garantie 12 mois • Mouvement automatique",
+    sold: true,
     description: "Cette Tudor Automatique des années 70 se distingue par une double parure précieuse : sa lunette en or et ses index sertis de diamants. Marque sœur de Rolex, Tudor offre ici une montre habillée de caractère, alliant la robustesse de son mouvement automatique à l'élégance des pierres précieuses. Son diamètre de 34 mm en fait une montre dame raffinée, parfaite pour les grandes occasions comme pour le quotidien.",
     specifications: {
       movement: "Automatique Tudor",

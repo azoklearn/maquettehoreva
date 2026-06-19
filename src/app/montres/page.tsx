@@ -467,6 +467,7 @@ const watches = [
     year: 1970,
     category: "Classique",
     details: "Lunette OR • Index diamants • Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "tudor-automatique-lunette-or",
