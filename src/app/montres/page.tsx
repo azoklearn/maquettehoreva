@@ -421,6 +421,18 @@ const watches = [
     details: "Rolex Certified Pre-Owned 2024 • Boîte et papiers • Garantie 12 mois • Mouvement automatique",
   },
   {
+    id: "tudor-black-bay-54-blue-lagoon",
+    brand: "TUDOR",
+    model: "Black Bay 54 \"Blue Lagoon\"",
+    reference: "Millésime 05/2026",
+    price: 4890,
+    image: "/bbay.jpeg",
+    condition: "Excellent",
+    year: 2026,
+    category: "Sport",
+    details: "Full set, boîte et papiers • Garantie 5 ans • Mouvement automatique • Bracelet jubilée",
+  },
+  {
     id: "omega-bumper-plaque-or",
     brand: "OMEGA",
     model: "Bumper",
