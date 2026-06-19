@@ -421,6 +421,18 @@ const watches = [
     details: "Rolex Certified Pre-Owned 2024 • Boîte et papiers • Garantie 12 mois • Mouvement automatique",
   },
   {
+    id: "tissot-prs516-alpine",
+    brand: "TISSOT",
+    model: "PRS516 Édition Alpine",
+    reference: "Édition limitée 516 ex.",
+    price: 1690,
+    image: "/tizer.jpeg",
+    condition: "Très bon",
+    year: 2018,
+    category: "Sport",
+    details: "Full set, boîte et papiers d'origine • Bracelet cuir neuf • Garantie 12 mois • Chronographe automatique",
+  },
+  {
     id: "tudor-black-bay-54-blue-lagoon",
     brand: "TUDOR",
     model: "Black Bay 54 \"Blue Lagoon\"",
@@ -510,7 +522,7 @@ const watches = [
   },
 ];
 
-const brands = ["Toutes", "BAUME & MERCIER", "BELL&ROSS", "BREITLING", "CARTIER", "CHAUMET", "GIRARD-PERREGAUX", "HAMILTON", "HEUER", "LONGINES", "OMEGA", "ORIS", "PIAGET", "RADO", "ROLEX", "SEIKO", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
+const brands = ["Toutes", "BAUME & MERCIER", "BELL&ROSS", "BREITLING", "CARTIER", "CHAUMET", "GIRARD-PERREGAUX", "HAMILTON", "HEUER", "LONGINES", "OMEGA", "ORIS", "PIAGET", "RADO", "ROLEX", "SEIKO", "TISSOT", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
 const categories = ["Toutes", "Sport", "Classique"];
 const conditions = ["Tous", "Comme neuf", "Excellent", "Très bon", "Bon"];
 
