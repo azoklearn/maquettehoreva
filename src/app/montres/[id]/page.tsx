@@ -1212,6 +1212,7 @@ const watchesData: Record<string, {
     year: 2026,
     category: "Sport",
     details: "Full set, boîte et papiers • Garantie 5 ans • Mouvement automatique • Bracelet jubilée",
+    sold: true,
     description: "La Tudor Black Bay 54 \"Blue Lagoon\" est une plongeuse moderne au style vintage assumé, inspirée des premières Submariners Tudor des années 50. Son cadran bleu intense baptisé Blue Lagoon lui confère une présence remarquable au poignet. Sortie en mai 2026 et portée en bracelet jubilée, elle est livrée en full set avec boîte et papiers d'origine, et bénéficie de la garantie Tudor de 5 ans. Son diamètre de 37 mm en fait une montre polyvalente, aussi bien portée par les hommes que les femmes.",
     specifications: {
       movement: "Automatique Tudor Manufacture",

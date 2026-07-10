@@ -443,6 +443,7 @@ const watches = [
     year: 2026,
     category: "Sport",
     details: "Full set, boîte et papiers • Garantie 5 ans • Mouvement automatique • Bracelet jubilée",
+    sold: true,
   },
   {
     id: "omega-bumper-plaque-or",
