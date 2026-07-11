@@ -421,6 +421,18 @@ const watches = [
     details: "Rolex Certified Pre-Owned 2024 • Boîte et papiers • Garantie 12 mois • Mouvement automatique",
   },
   {
+    id: "omega-seamaster-aqua-terra-2518-30",
+    brand: "OMEGA",
+    model: "Seamaster Aqua Terra",
+    reference: "2518.30",
+    price: 1390,
+    image: "/disco.jpeg",
+    condition: "Très bon",
+    year: 2006,
+    category: "Classique",
+    details: "Carte d'origine • Bracelet acier • Garantie 12 mois • Mouvement quartz",
+  },
+  {
     id: "tissot-prs516-alpine",
     brand: "TISSOT",
     model: "PRS516 Édition Alpine",
