@@ -432,6 +432,7 @@ const watches = [
     year: 2006,
     category: "Classique",
     details: "Carte d'origine • Bracelet acier • Garantie 12 mois • Mouvement quartz",
+    sold: true,
   },
   {
     id: "tissot-prs516-alpine",
@@ -636,6 +637,7 @@ const watches = [
     year: 2006,
     category: "Classique",
     details: "Carte d'origine • Bracelet acier • Garantie 12 mois • Mouvement quartz",
+    sold: true,
   },
 ];
 

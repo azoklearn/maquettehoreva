@@ -1177,6 +1177,7 @@ const watchesData: Record<string, {
     year: 2006,
     category: "Classique",
     details: "Carte d'origine • Bracelet acier • Garantie 12 mois • Mouvement quartz",
+    sold: true,
     description: "La Omega Seamaster Aqua Terra (réf. 2518.30) de 2006 est une montre élégante et polyvalente, à mi-chemin entre la sportivité de la Seamaster et le raffinement d'une montre habillée. Son diamètre de 36 mm lui confère une présence discrète et intemporelle, idéale pour toutes les occasions. Équipée d'un mouvement quartz fiable et livrée avec sa carte d'origine et son bracelet acier, cette Aqua Terra représente une excellente entrée dans l'univers Omega à un prix accessible.",
     specifications: {
       movement: "Quartz Omega",
@@ -1799,6 +1800,7 @@ const watchesData: Record<string, {
     year: 2006,
     category: "Classique",
     details: "Carte d'origine • Bracelet acier • Garantie 12 mois • Mouvement quartz",
+    sold: true,
     description: "La Omega Seamaster Aqua Terra (réf. 2518.30) de 2006 est une montre élégante et polyvalente, à mi-chemin entre la sportivité de la Seamaster et le raffinement d'une montre habillée. Son diamètre de 36 mm lui confère une présence discrète et intemporelle, idéale pour toutes les occasions. Équipée d'un mouvement quartz fiable et livrée avec sa carte d'origine et son bracelet acier, cette Aqua Terra représente une excellente entrée dans l'univers Omega.",
     specifications: {
       movement: "Quartz Omega",
