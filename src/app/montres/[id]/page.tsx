@@ -44,6 +44,7 @@ const watchesData: Record<string, {
     year: 2014,
     category: "Classique",
     details: "Full set • Garantie 12 mois • Mouvement automatique manufacture",
+    sold: true,
     description: "La Girard-Perregaux Monte-Carlo 1965 est une pièce d'exception qui rend hommage à l'histoire prestigieuse de la manufacture. Cette édition limitée à 250 exemplaires dans le monde célèbre l'élégance intemporelle de l'horlogerie suisse. Son design classique/sport en fait une montre polyvalente, parfaite pour toutes les occasions.",
     specifications: {
       movement: "Automatique manufacture Girard-Perregaux",

@@ -17,6 +17,7 @@ const watches = [
     year: 2014,
     category: "Classique",
     details: "Full set • Garantie 12 mois • Mouvement automatique manufacture",
+    sold: true,
   },
   {
     id: "rolex-submariner-kermit",
