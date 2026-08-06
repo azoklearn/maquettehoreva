@@ -564,7 +564,7 @@ const watches = [
     brand: "ROLEX",
     model: "Sea-Dweller",
     reference: "126660",
-    price: 10800,
+    price: 3900,
     image: "/whooop3.jpeg",
     condition: "Excellent",
     year: 2019,
