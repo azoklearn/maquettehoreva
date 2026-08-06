@@ -1532,6 +1532,7 @@ const watchesData: Record<string, {
     year: 2017,
     category: "Classique",
     details: "Carte d'origine • Bracelet Oyster • Diamètre 34mm • Garantie 12 mois • Mouvement automatique",
+    sold: true,
     description: "La Rolex Oyster Perpetual 114200 de 2017 est l'expression la plus pure du génie horloger de Rolex. Dépourvue de complications superflues, elle incarne l'élégance dans sa forme la plus épurée. Son boîtier Oyster de 34 mm en acier Oystersteel 904L, son mouvement automatique manufacture et sa carte d'origine en font une pièce d'une fiabilité absolue. Une Rolex intemporelle, parfaite comme première acquisition ou pièce maîtresse d'une collection.",
     specifications: {
       movement: "Automatique Rolex Calibre 3130",

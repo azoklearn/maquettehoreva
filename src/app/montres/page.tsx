@@ -614,6 +614,7 @@ const watches = [
     year: 2017,
     category: "Classique",
     details: "Carte d'origine • Bracelet Oyster • Diamètre 34mm • Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "rolex-datejust-16013-or-acier",
