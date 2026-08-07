@@ -260,6 +260,7 @@ const watches = [
     year: 1970,
     category: "Classique",
     details: "Garantie 12 mois • Mouvement remontage manuel",
+    sold: true,
   },
   {
     id: "tudor-prince31",
@@ -285,6 +286,7 @@ const watches = [
     year: 1946,
     category: "Classique",
     details: "Extrait d'archives • Garantie 12 mois • Mouvement 13ZN",
+    sold: true,
   },
   {
     id: "longines-plaque-or",
@@ -297,6 +299,7 @@ const watches = [
     year: 1970,
     category: "Classique",
     details: "Plaqué Or • Garantie 12 mois • Mouvement remontage manuel",
+    sold: true,
   },
   {
     id: "omega-seamaster-120-baby-proplof",
@@ -321,6 +324,7 @@ const watches = [
     year: 1997,
     category: "Sport",
     details: "Garantie 12 mois • Mouvement automatique • Cuir Omega rouge",
+    sold: true,
   },
   {
     id: "omega-ww1",
@@ -409,6 +413,7 @@ const watches = [
     year: 2009,
     category: "Sport",
     details: "Édition limitée 2009 ex. monde • N°1885 • Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "rolex-oyster-perpetual-36-2008",
@@ -421,6 +426,7 @@ const watches = [
     year: 2008,
     category: "Classique",
     details: "Rolex Certified Pre-Owned 2024 • Boîte et papiers • Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "omega-seamaster-aqua-terra-2518-30",

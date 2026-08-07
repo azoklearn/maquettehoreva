@@ -653,6 +653,7 @@ const watchesData: Record<string, {
     year: 1946,
     category: "Classique",
     details: "Extrait d'archives • Garantie 12 mois • Mouvement 13ZN",
+    sold: true,
     description: "Cette Longines Chronographe équipée du légendaire calibre 13ZN de 1946 est une pièce historique exceptionnelle. Le calibre 13ZN est l'un des mouvements de chronographe les plus recherchés et respectés de l'histoire horlogère, réputé pour sa précision et sa fiabilité. Livré avec son extrait d'archives officiel Longines confirmant son authenticité, ce chronographe vintage en très bon état représente un investissement horloger de collection de premier ordre pour les connaisseurs d'horlogerie vintage.",
     specifications: {
       movement: "Remontage manuel Longines Calibre 13ZN",
@@ -722,6 +723,7 @@ const watchesData: Record<string, {
     year: 1997,
     category: "Sport",
     details: "Garantie 12 mois • Mouvement automatique • Cuir Omega rouge",
+    sold: true,
     description: "L'Omega Dynamic III (3) de 1997 est une montre polyvalente qui allie élégance classique et fonctionnalité sportive. Cette pièce en très bon état de conservation incarne le savoir-faire Omega avec son mouvement automatique fiable et son design intemporel. Équipée d'un bracelet cuir Omega rouge distinctif, cette Dynamic III représente une opportunité accessible d'acquérir une montre Omega authentique des années 90, parfaite pour un usage quotidien ou sportif.",
     specifications: {
       movement: "Automatique Omega",
@@ -828,6 +830,7 @@ const watchesData: Record<string, {
     year: 1970,
     category: "Classique",
     details: "Garantie 12 mois • Mouvement remontage manuel",
+    sold: true,
     description: "La Tudor Oyster des années 70 incarne la sobriété et la robustesse de la marque sœur de Rolex. Cette pièce vintage à remontage manuel en très bon état offre une expérience horlogère mécanique pure et authentique. Le boîtier Oyster légendaire garantit une fiabilité à toute épreuve, faisant de cette Tudor un choix idéal pour les amateurs d'horlogerie classique à un prix accessible.",
     specifications: {
       movement: "Remontage manuel Tudor",
@@ -967,6 +970,7 @@ const watchesData: Record<string, {
     year: 1970,
     category: "Classique",
     details: "Plaqué Or • Garantie 12 mois • Mouvement remontage manuel",
+    sold: true,
     description: "Cette Longines Plaqué Or des années 70 est une élégante montre de ville à remontage manuel, incarnant le style raffiné de la manufacture La Chaux-de-Fonds. Son boîtier en plaqué or lui confère un caractère luxueux et intemporel. En très bon état, cette Longines vintage est une entrée accessible dans l'univers de l'horlogerie suisse classique, avec le charme authentique des montres mécaniques d'antan.",
     specifications: {
       movement: "Remontage manuel Longines",
@@ -1108,6 +1112,7 @@ const watchesData: Record<string, {
     year: 2009,
     category: "Sport",
     details: "Édition limitée 2009 ex. monde • N°1885 • Garantie 12 mois • Mouvement automatique",
+    sold: true,
     description: "L'Oris Dat Watt est une édition limitée à 2 009 exemplaires dans le monde, créée en hommage à la zone intertidale des îles frisonnes (Dat Watt en frison), classée au patrimoine mondial de l'UNESCO. Cet exemplaire porte le numéro 1885, gravé sur le fond de boîte. Son boîtier de 43,5 mm au design sportif et robuste abrite un mouvement automatique fiable. Une montre de collection engagée, alliant horlogerie de qualité et message environnemental fort.",
     specifications: {
       movement: "Automatique Oris",
@@ -1142,6 +1147,7 @@ const watchesData: Record<string, {
     year: 2008,
     category: "Classique",
     details: "Rolex Certified Pre-Owned 2024 • Boîte et papiers • Garantie 12 mois • Mouvement automatique",
+    sold: true,
     description: "La Rolex Oyster Perpetual 36 de 2008 est une icône de l'horlogerie classique dans sa forme la plus pure. Dépourvue de date, elle incarne l'essence même du design Rolex avec son boîtier Oyster intemporel et son mouvement automatique manufacture de haute précision. Cette pièce bénéficie du label Rolex Certified Pre-Owned 2024, gage d'authenticité absolue et de qualité certifiée directement par la manufacture genevoise. Livrée avec boîte et papiers d'origine, c'est un investissement horloger sûr et pérenne.",
     specifications: {
       movement: "Automatique Rolex Calibre 3130",
