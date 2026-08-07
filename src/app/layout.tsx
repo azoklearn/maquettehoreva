@@ -18,6 +18,9 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
+  verification: {
+    google: "W_R1DTd1DRCobb6rQw20qog286bP3Srg_LuVNsBsFKk",
+  },
   title: "HOREVA | Montres de Luxe de Seconde Main",
   description:
     "HOREVA - Expert en achat, revente, réparation et estimation de montres de luxe de seconde main. Partout en France.",
