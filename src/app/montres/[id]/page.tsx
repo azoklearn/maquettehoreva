@@ -1670,7 +1670,7 @@ const watchesData: Record<string, {
     brand: "ROLEX",
     model: "Sea-Dweller",
     reference: "126660",
-    price: 3900,
+    price: 10800,
     image: "/whooop3.jpeg",
     condition: "Excellent",
     year: 2019,
@@ -1682,7 +1682,7 @@ const watchesData: Record<string, {
       case: "Acier Oystersteel 904L",
       dial: "Cadran noir avec index luminescents",
       bracelet: "Bracelet Oyster acier",
-      waterResistance: "1220 mètres",
+      waterResistance: "3900 mètres",
       diameter: "44 mm",
     },
     included: [
