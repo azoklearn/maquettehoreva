@@ -692,6 +692,7 @@ const watches = [
     year: 1988,
     category: "Classique",
     details: "Lunette cannelée OR • Bracelet jubilée OR/acier refait à neuf • Cadran Tapestry bleu très rare • Diamètre 36mm • Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "omega-seamaster-aqua-terra-2518-30-ii",

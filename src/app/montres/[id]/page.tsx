@@ -1574,6 +1574,7 @@ const watchesData: Record<string, {
     year: 1988,
     category: "Classique",
     details: "Lunette cannelée OR • Bracelet jubilée OR/acier refait à neuf • Cadran Tapestry bleu très rare • Diamètre 36mm • Garantie 12 mois • Mouvement automatique",
+    sold: true,
     description: "La Rolex Datejust 16013 OR/ACIER de 1988 est une pièce bicolore d'exception alliant acier et or. Sa lunette cannelée en or et son bracelet jubilée OR/acier entièrement refait à neuf lui donnent un aspect quasi neuf tout en conservant le charme du vintage. Son cadran Tapestry bleu est une rareté très recherchée des collectionneurs — ce motif guilloché bleu est l'un des plus beaux jamais produits par Rolex. Un investissement horloger remarquable associant prestige, rareté et beauté.",
     specifications: {
       movement: "Automatique Rolex",
