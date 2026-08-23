@@ -602,6 +602,63 @@ const watches = [
     details: "Full set, boîte et papiers d'origine • Bracelet cuir • Garantie 12 mois • Calibre 410 automatique",
   },
   {
+    id: "boucheron-reflet-gm",
+    brand: "BOUCHERON",
+    model: "Reflet Grand Modèle",
+    reference: "GM",
+    price: 1400,
+    image: "/campanil.jpeg",
+    condition: "Très bon",
+    category: "Classique",
+    details: "Mouvement quartz • Bracelet acier • Garantie 12 mois • Montre Dame",
+  },
+  {
+    id: "herbelin-newport-automatique-chrono",
+    brand: "HERBELIN",
+    model: "Newport Automatique Chronographe",
+    reference: "Millésime 2025",
+    price: 1500,
+    image: "/campanil2.jpeg",
+    condition: "Excellent",
+    year: 2025,
+    category: "Sport",
+    details: "Full set, boîte, papiers et facture d'origine • Bracelet acier • Garantie 12 mois • Calibre Sellita 510",
+  },
+  {
+    id: "seiko-chronograph-6139-automatique",
+    brand: "SEIKO",
+    model: "Chronographe Automatique 6139",
+    reference: "6139",
+    price: 900,
+    image: "/campanil3.jpeg",
+    condition: "Très bon",
+    category: "Sport",
+    details: "Mouvement automatique 6139 • Bracelet silicone noir • Garantie 12 mois • Chronographe",
+  },
+  {
+    id: "tissot-sideral-bullhead",
+    brand: "TISSOT",
+    model: "Sidéral Chronograph \"Bullhead\"",
+    reference: "Calibre Lemania 872",
+    price: 1350,
+    image: "/campanil4.jpeg",
+    condition: "Très bon",
+    category: "Sport",
+    details: "Boîte d'origine • Boîtier fibre de verre 39mm • Garantie 12 mois • Calibre remontage manuel Lemania 872",
+  },
+  {
+    id: "omega-dynamic-no-date-552",
+    brand: "OMEGA",
+    model: "Dynamic No Date",
+    reference: "Calibre 552",
+    price: 650,
+    image: "/campanil5.jpeg",
+    condition: "Très bon",
+    year: 1970,
+    category: "Classique",
+    details: "Boîtier acier • Bracelet cuir d'origine • Circa 1970 • Garantie 12 mois • Calibre 552 remontage manuel",
+  },
+  {
     id: "rado-golden-horse-rookie",
     brand: "RADO",
     model: "Golden Horse Rookie",
@@ -709,7 +766,7 @@ const watches = [
   },
 ];
 
-const brands = ["Toutes", "BAUME & MERCIER", "BELL&ROSS", "BREITLING", "CARTIER", "CHAUMET", "EBERHARD & CO", "GIRARD-PERREGAUX", "HAMILTON", "HEUER", "LONGINES", "OMEGA", "ORIS", "PIAGET", "RADO", "ROLEX", "SEIKO", "TAG HEUER", "TISSOT", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
+const brands = ["Toutes", "BAUME & MERCIER", "BELL&ROSS", "BOUCHERON", "BREITLING", "CARTIER", "CHAUMET", "EBERHARD & CO", "GIRARD-PERREGAUX", "HAMILTON", "HERBELIN", "HEUER", "LONGINES", "OMEGA", "ORIS", "PIAGET", "RADO", "ROLEX", "SEIKO", "TAG HEUER", "TISSOT", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
 const categories = ["Toutes", "Sport", "Classique"];
 const conditions = ["Tous", "Comme neuf", "Excellent", "Très bon", "Bon"];
 
