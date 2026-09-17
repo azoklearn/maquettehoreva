@@ -43,6 +43,7 @@ const watches = [
     year: 2000,
     category: "Sport",
     details: "Full set • Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "bell-ross-123-commando",
@@ -159,6 +160,7 @@ const watches = [
     year: 2010,
     category: "Sport",
     details: "Boîte • Garantie 12 mois • Mouvement automatique chronographe",
+    sold: true,
   },
   {
     id: "rolex-gmt-master-ii-16710",
@@ -679,6 +681,7 @@ const watches = [
     condition: "Très bon",
     category: "Classique",
     details: "36 000 alternances • Boîtier coussin • Diamètre 35mm • Garantie 12 mois",
+    sold: true,
   },
   {
     id: "seiko-chronograph-6139-bruce-lee",

@@ -116,6 +116,7 @@ const watchesData: Record<string, {
     year: 2000,
     category: "Sport",
     details: "Full set • Garantie 12 mois • Mouvement automatique",
+    sold: true,
     description: "La Bell&Ross BR03-92 est une icône de l'horlogerie moderne, inspirée des instruments de cockpit d'aviation. Cette édition limitée à 250 exemplaires dans le monde représente une opportunité unique d'acquérir une pièce de collection très recherchée. Son design carré emblématique et sa lisibilité exceptionnelle en font une montre sportive de caractère, parfaite pour les passionnés d'aviation et d'horlogerie contemporaine.",
     specifications: {
       movement: "Automatique Bell&Ross",
@@ -405,6 +406,7 @@ const watchesData: Record<string, {
     year: 2010,
     category: "Sport",
     details: "Boîte • Garantie 12 mois • Mouvement automatique chronographe",
+    sold: true,
     description: "La Longines Saint-Imier Collection rend hommage au village suisse où fut fondée la manufacture en 1832. Ce chronographe automatique des années 2010 allie élégance classique et fonctionnalité sportive. En excellent état avec sa boîte d'origine, cette pièce incarne le savoir-faire horloger de Longines avec son mouvement chronographe automatique précis et fiable. Son design intemporel en fait une montre polyvalente, parfaite aussi bien pour le quotidien que pour les occasions spéciales.",
     specifications: {
       movement: "Automatique chronographe Longines",
@@ -1985,6 +1987,7 @@ const watchesData: Record<string, {
     condition: "Très bon",
     category: "Classique",
     details: "36 000 alternances • Boîtier coussin • Diamètre 35mm • Garantie 12 mois",
+    sold: true,
     description: "La Longines Ultrachron (réf. 8024) est une pièce de collection prestigieuse, incarnant le summum de la précision horlogère Longines. Son mouvement à 36 000 alternances par heure (5 Hz) lui confère une précision exceptionnelle, bien supérieure aux montres conventionnelles. Son boîtier coussin distinctif et son diamètre de 35 mm en font une montre au style résolument unique. Une opportunité rare d'acquérir une pièce d'histoire technique de la manufacture de La Chaux-de-Fonds.",
     specifications: {
       movement: "Automatique Longines 36 000 alternances/heure (5 Hz)",
