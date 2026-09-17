@@ -1295,6 +1295,7 @@ const watchesData: Record<string, {
     year: 1950,
     category: "Classique",
     details: "Plaqué OR • Garantie 12 mois • Mouvement automatique bumper",
+    sold: true,
     description: "L'Omega Bumper est une pièce de collection emblématique des années 50, dotée du légendaire mouvement automatique à remontage bumper — un système où le rotor ne tourne pas en continu mais rebondit en arc de cercle, caractéristique des premières montres automatiques Omega. Ce modèle vintage en plaqué or incarne l'élégance dorée de l'après-guerre et le génie mécanique de la manufacture. Une opportunité rare d'acquérir une pièce d'histoire horlogère dans un état de conservation remarquable.",
     specifications: {
       movement: "Automatique bumper Omega",

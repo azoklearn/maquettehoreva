@@ -479,6 +479,7 @@ const watches = [
     year: 1950,
     category: "Classique",
     details: "Plaqué OR • Garantie 12 mois • Mouvement automatique bumper",
+    sold: true,
   },
   {
     id: "baume-mercier-baumatic",
