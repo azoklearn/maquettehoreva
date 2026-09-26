@@ -492,6 +492,7 @@ const watches = [
     year: 2020,
     category: "Sport",
     details: "Acier • Bracelet NATO • Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "tudor-automatique-lunette-or-diamants",

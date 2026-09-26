@@ -1330,6 +1330,7 @@ const watchesData: Record<string, {
     year: 2020,
     category: "Sport",
     details: "Acier • Bracelet NATO • Garantie 12 mois • Mouvement automatique",
+    sold: true,
     description: "La Baume & Mercier Baumatic est une montre sport moderne équipée d'un mouvement automatique performant développé en partenariat avec la manufacture Sellita. Portée sur bracelet NATO, elle affiche un style résolument contemporain et aventurier. Son boîtier acier robuste et son mouvement de haute précision en font une montre du quotidien polyvalente, parfaite pour les amateurs d'horlogerie automatique accessible et élégante.",
     specifications: {
       movement: "Automatique Baume & Mercier / Sellita",
