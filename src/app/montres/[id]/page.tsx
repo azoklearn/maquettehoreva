@@ -1751,6 +1751,7 @@ const watchesData: Record<string, {
     year: 1997,
     category: "Sport",
     details: "Full set, boîte et papiers d'origine • Bracelet cuir • Garantie 12 mois • Calibre 410 automatique",
+    sold: true,
     description: "La Zénith El Primero (réf. 01.0240.410) de 1997 est dotée du légendaire calibre 410, descendant direct du El Primero original de 1969 — premier chronographe automatique intégré au monde. Ce calibre iconique bat à 36 000 alternances par heure, offrant une précision au 1/10e de seconde. Livrée en full set complet avec boîte et papiers d'origine, cette pièce en très bon état représente une opportunité exceptionnelle d'acquérir un morceau d'histoire horlogère à un prix très attractif.",
     specifications: {
       movement: "Chronographe automatique Zénith Calibre 410 — 36 000 alt/h",

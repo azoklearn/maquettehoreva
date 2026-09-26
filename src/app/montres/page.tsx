@@ -604,6 +604,7 @@ const watches = [
     year: 1997,
     category: "Sport",
     details: "Full set, boîte et papiers d'origine • Bracelet cuir • Garantie 12 mois • Calibre 410 automatique",
+    sold: true,
   },
   {
     id: "boucheron-reflet-gm",
