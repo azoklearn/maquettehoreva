@@ -341,6 +341,7 @@ const watchesData: Record<string, {
       case: "Acier inoxydable",
       dial: "Cadran Ferrari by Cartier",
       bracelet: "Bracelet cuir ou acier",
+      waterResistance: "30 mètres",
       diameter: "26 mm",
     },
     included: [
@@ -2335,6 +2336,7 @@ const watchesData: Record<string, {
       case: "Acier inoxydable",
       dial: "Cadran Oyster Précision vintage",
       bracelet: "Bracelet cuir",
+      waterResistance: "30 mètres",
       diameter: "34 mm",
     },
     included: [
