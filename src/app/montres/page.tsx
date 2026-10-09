@@ -135,6 +135,18 @@ const watches = [
     details: "Boîtier acier • Diamètre 26mm • Garantie 12 mois • Mouvement quartz",
   },
   {
+    id: "cartier-colisee-or-18k",
+    brand: "CARTIER",
+    model: "Colisée OR 18 carats",
+    reference: "Circa 1992",
+    price: 9900,
+    image: "/europa3.jpeg",
+    condition: "Très bon",
+    year: 1992,
+    category: "Classique",
+    details: "Or massif 18 carats • Bracelet \"billes\" Cartier OR massif • Diamètre 25mm • Garantie 12 mois • Mouvement quartz manufacturé Cartier",
+  },
+  {
     id: "piaget-altiplano-gold",
     brand: "PIAGET",
     model: "Altiplano OR 750/1000",
@@ -480,6 +492,29 @@ const watches = [
     sold: true,
   },
   {
+    id: "tudor-blackbay54-79000",
+    brand: "TUDOR",
+    model: "Black Bay 54",
+    reference: "79000",
+    price: 3550,
+    image: "/europa2.jpeg",
+    condition: "Excellent",
+    year: 2025,
+    category: "Sport",
+    details: "Full set, boîte et papiers d'origine • Diamètre 37mm • Garantie 12 mois • Mouvement automatique",
+  },
+  {
+    id: "chopard-happy-sport-278923",
+    brand: "CHOPARD",
+    model: "Happy Sport",
+    reference: "27/8923",
+    price: 1850,
+    image: "/europa4.jpeg",
+    condition: "Excellent",
+    category: "Classique",
+    details: "Full set, boîte et papiers d'origine • Diamètre 25mm • Garantie 12 mois • Mouvement quartz manufacturé Chopard",
+  },
+  {
     id: "omega-bumper-plaque-or",
     brand: "OMEGA",
     model: "Bumper",
@@ -745,6 +780,17 @@ const watches = [
     sold: true,
   },
   {
+    id: "longines-ultrachron-plaque-or",
+    brand: "LONGINES",
+    model: "Ultrachron",
+    reference: "Haute fréquence — Plaqué OR",
+    price: 1200,
+    image: "/europa.jpeg",
+    condition: "Très bon",
+    category: "Classique",
+    details: "Boîtier plaqué or • Bracelet cuir • 36 000 alternances • Garantie 12 mois • Mouvement automatique haute fréquence",
+  },
+  {
     id: "seiko-chronograph-6139-bruce-lee",
     brand: "SEIKO",
     model: "Chronograph 6139 \"Bruce Lee\"",
@@ -842,7 +888,7 @@ const watches = [
   },
 ];
 
-const brands = ["Toutes", "BAUME & MERCIER", "BELL&ROSS", "BOUCHERON", "BREITLING", "CARTIER", "CHAUMET", "EBERHARD & CO", "GIRARD-PERREGAUX", "HAMILTON", "HERBELIN", "HEUER", "LONGINES", "OMEGA", "ORIS", "PIAGET", "RADO", "ROLEX", "SEIKO", "TAG HEUER", "TISSOT", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
+const brands = ["Toutes", "BAUME & MERCIER", "BELL&ROSS", "BOUCHERON", "BREITLING", "CARTIER", "CHAUMET", "CHOPARD", "EBERHARD & CO", "GIRARD-PERREGAUX", "HAMILTON", "HERBELIN", "HEUER", "LONGINES", "OMEGA", "ORIS", "PIAGET", "RADO", "ROLEX", "SEIKO", "TAG HEUER", "TISSOT", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
 const categories = ["Toutes", "Sport", "Classique"];
 const conditions = ["Tous", "Comme neuf", "Excellent", "Très bon", "Bon"];
 
