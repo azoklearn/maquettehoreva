@@ -604,6 +604,19 @@ const watches = [
     details: "Mouvement quartz • Bracelet acier • Diamètre 31mm • Garantie 12 mois",
   },
   {
+    id: "hamilton-khaki-x-wind-2026",
+    brand: "HAMILTON",
+    model: "Khaki X-Wind",
+    reference: "2026",
+    price: 700,
+    originalPrice: 2445,
+    image: "/hamilton1.jpeg",
+    condition: "Neuf",
+    year: 2026,
+    category: "Sport",
+    details: "Jamais portée • Full set boîte et papiers d'origine • Sous garantie marque • Mouvement automatique",
+  },
+  {
     id: "rolex-datejust-wimbledon-126334",
     brand: "ROLEX",
     model: "Datejust Wimbledon",
@@ -687,6 +700,19 @@ const watches = [
     details: "Mouvement automatique 6139 • Bracelet silicone noir • Garantie 12 mois • Chronographe",
   },
   {
+    id: "tissot-quartz-2026",
+    brand: "TISSOT",
+    model: "Quartz",
+    reference: "2026",
+    price: 200,
+    originalPrice: 349,
+    image: "/tissot.jpeg",
+    condition: "Neuf",
+    year: 2026,
+    category: "Classique",
+    details: "Jamais portée • Full set boîte et papiers d'origine • Sous garantie marque • Mouvement quartz",
+  },
+  {
     id: "tissot-sideral-bullhead",
     brand: "TISSOT",
     model: "Sidéral Chronograph \"Bullhead\"",
@@ -755,6 +781,45 @@ const watches = [
     year: 2025,
     category: "Classique",
     details: "Full set • Automatique • Garantie 12 mois",
+  },
+  {
+    id: "mido-multifort-two-crown-2026",
+    brand: "MIDO",
+    model: "Multifort Two Crown",
+    reference: "2026",
+    price: 700,
+    originalPrice: 2290,
+    image: "/mido.jpeg",
+    condition: "Neuf",
+    year: 2026,
+    category: "Sport",
+    details: "Jamais portée • Full set boîte et papiers d'origine • Sous garantie marque • Mouvement automatique",
+  },
+  {
+    id: "lip-type-14-manufacture-2026",
+    brand: "LIP",
+    model: "Type 14 Manufacture",
+    reference: "2026",
+    price: 450,
+    originalPrice: 1090,
+    image: "/lip.jpeg",
+    condition: "Neuf",
+    year: 2026,
+    category: "Classique",
+    details: "Jamais portée • Full set boîte et papiers d'origine • Sous garantie marque • Manufacture française",
+  },
+  {
+    id: "briston-automatique-clubmaster-2026",
+    brand: "BRISTON",
+    model: "Automatique Clubmaster",
+    reference: "2026",
+    price: 300,
+    originalPrice: 950,
+    image: "/briston.jpeg",
+    condition: "Neuf",
+    year: 2026,
+    category: "Classique",
+    details: "Jamais portée • Full set boîte et papiers d'origine • Sous garantie marque • Mouvement automatique",
   },
   {
     id: "rado-golden-horse-rookie",
@@ -888,7 +953,7 @@ const watches = [
   },
 ];
 
-const brands = ["Toutes", "BAUME & MERCIER", "BELL&ROSS", "BOUCHERON", "BREITLING", "CARTIER", "CHAUMET", "CHOPARD", "EBERHARD & CO", "GIRARD-PERREGAUX", "HAMILTON", "HERBELIN", "HEUER", "LONGINES", "OMEGA", "ORIS", "PIAGET", "RADO", "ROLEX", "SEIKO", "TAG HEUER", "TISSOT", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
+const brands = ["Toutes", "BAUME & MERCIER", "BELL&ROSS", "BOUCHERON", "BREITLING", "BRISTON", "CARTIER", "CHAUMET", "CHOPARD", "EBERHARD & CO", "GIRARD-PERREGAUX", "HAMILTON", "HERBELIN", "HEUER", "LIP", "LONGINES", "MIDO", "OMEGA", "ORIS", "PIAGET", "RADO", "ROLEX", "SEIKO", "TAG HEUER", "TISSOT", "TUDOR", "ULYSSE NARDIN", "UNIVERSAL GENÈVE", "ZÉNITH"];
 const categories = ["Toutes", "Sport", "Classique"];
 const conditions = ["Tous", "Comme neuf", "Excellent", "Très bon", "Bon"];
 
