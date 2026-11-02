@@ -502,6 +502,7 @@ const watches = [
     year: 2025,
     category: "Sport",
     details: "Full set, boîte et papiers d'origine • Diamètre 37mm • Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "chopard-happy-sport-278923",
@@ -651,6 +652,7 @@ const watches = [
     year: 1971,
     category: "Classique",
     details: "Boîte d'origine • Bracelet jubilée • Lunette cannelée • Diamètre 36mm • Garantie 12 mois • Calibre 1570",
+    sold: true,
   },
   {
     id: "zenith-el-primero-410",
@@ -734,6 +736,7 @@ const watches = [
     year: 1970,
     category: "Classique",
     details: "Boîtier acier • Bracelet cuir d'origine • Circa 1970 • Garantie 12 mois • Calibre 552 remontage manuel",
+    sold: true,
   },
   {
     id: "longines-vintage-remontage-manuel",
@@ -745,6 +748,7 @@ const watches = [
     condition: "Très bon",
     category: "Classique",
     details: "Boîtier acier • Bracelet cuir • Diamètre 33mm • Révisé • Garantie 12 mois • Calibre remontage manuel",
+    sold: true,
   },
   {
     id: "herbelin-newport-35-anniversaire",
@@ -865,6 +869,7 @@ const watches = [
     condition: "Très bon",
     category: "Sport",
     details: "Cadran bleu • Diamètre 39mm • Bracelet acier Seiko • Garantie 12 mois • Chronographe automatique",
+    sold: true,
   },
   {
     id: "tudor-22013-lunette-or-index-diamants",
@@ -876,6 +881,7 @@ const watches = [
     condition: "Très bon",
     category: "Classique",
     details: "Lunette OR • Index diamants • Diamètre 37mm • Garantie 12 mois • Mouvement automatique",
+    sold: true,
   },
   {
     id: "tag-heuer-carrera-twin-time",
