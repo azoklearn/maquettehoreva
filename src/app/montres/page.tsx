@@ -133,6 +133,7 @@ const watches = [
     condition: "Bon",
     category: "Classique",
     details: "Boîtier acier • Diamètre 26mm • Garantie 12 mois • Mouvement quartz",
+    sold: true,
   },
   {
     id: "cartier-colisee-or-18k",
@@ -689,6 +690,7 @@ const watches = [
     year: 2025,
     category: "Sport",
     details: "Full set, boîte, papiers et facture d'origine • Bracelet acier • Garantie 12 mois • Calibre Sellita 510",
+    sold: true,
   },
   {
     id: "seiko-chronograph-6139-automatique",
@@ -989,6 +991,7 @@ const watches = [
     condition: "Très bon",
     category: "Sport",
     details: "Boîtier acier • Bracelet cuir • Garantie 12 mois • Chronographe automatique",
+    sold: true,
   },
   {
     id: "omega-seamaster-plaque-or-rose",

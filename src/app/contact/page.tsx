@@ -114,7 +114,7 @@ export default function ContactPage() {
                   </div>
                   <div className="flex-1">
                     <p className="font-semibold text-navy-900">05 32 18 90 17</p>
-                    <p className="text-sm text-charcoal/60">Du lundi au vendredi, 9h-17h30</p>
+                    <p className="text-sm text-charcoal/60">Du mardi au samedi, 10h-19h</p>
                   </div>
                   <svg
                     className="w-5 h-5 text-charcoal/40 group-hover:text-gold-400 group-hover:translate-x-1 transition-all"
@@ -245,7 +245,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-display font-semibold text-navy-900 mb-2">Horaires</h3>
                   <p className="text-charcoal/70">
-                    Du lundi au vendredi : 9h00 - 17h30
+                    Du mardi au samedi : 10h00 - 19h00
                   </p>
                 </div>
               </div>

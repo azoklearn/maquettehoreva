@@ -310,7 +310,7 @@ export default function HomePage() {
                 transition={{ delay: 0.3, duration: 0.5 }}
                 className="absolute -bottom-8 -right-8 bg-navy-900 text-cream p-8 rounded-sm shadow-luxury"
               >
-                <p className="font-display text-4xl font-semibold text-gold-400">10+</p>
+                <p className="font-display text-4xl font-semibold text-gold-400">5+</p>
                 <p className="text-sm text-cream/70 mt-1">années d&apos;expertise</p>
               </motion.div>
             </motion.div>
