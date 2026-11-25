@@ -945,6 +945,7 @@ const watches = [
     year: 1971,
     category: "Classique",
     details: "Boîtier acier • Bracelet cuir • Diamètre 34mm • Garantie 12 mois • Calibre remontage manuel manufacturé Rolex",
+    sold: true,
   },
   {
     id: "omega-seamaster-aqua-terra-2518-30-ii",
